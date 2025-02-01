@@ -1,0 +1,14 @@
+.description{
+    /* width: 100rem; */
+    margin: 0rem 6rem;
+    padding: 8rem 10rem;
+    font-size: 2rem;
+    /* background-color: aqua; */
+}
+.Heading{
+    font-size: 3rem;
+    color:#087f5b;
+}
+.imp{
+    font-style:italic;
+}
