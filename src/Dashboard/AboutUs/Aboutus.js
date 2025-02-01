@@ -1,5 +1,6 @@
 import React from 'react'
 import "./AboutUs.css"
+import { NavLink } from "react-router-dom";
 
 function Aboutus() {
   return (
@@ -19,9 +20,16 @@ function Aboutus() {
              </div>
              <br/>
              <div> 
-            <p>Founding Board (as hyperlinks) </p>
-            <p>Advisory Committee </p>
-            <p>Technology Advisory Committee </p>
+            <div>
+            <NavLink to="/AdvisorBoard">Advisory Board</NavLink>
+            </div>
+             <div> 
+             <NavLink to="/TechAdvisor">Technical Advisory</NavLink>
+             </div>
+              <div>
+              <NavLink to="/incubationItel">ITEL Incubation</NavLink>
+              </div>
+              
             </div>
            <br/>
             <div> 

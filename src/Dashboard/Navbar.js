@@ -48,9 +48,15 @@ function Navbar() {
           <div className="dropdown">
             Committee Members
             <div className="dropdown-content">
-              <div>Member 1</div>
-              <div>Member 2</div>
-              <div>Member 3</div>
+              <div > 
+                 <NavLink to="/AdvisorBoard"  className="link" >Advisory Board </NavLink>
+              </div>
+              <div >
+              <NavLink to="/TechAdvisor" className="link">Technical Advisory</NavLink>
+              </div>
+              <div >
+              <NavLink to="/incubationItel" className="link">ITEL Incubation</NavLink>
+              </div>
             </div>
           </div>
 
