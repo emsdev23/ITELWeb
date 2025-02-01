@@ -1,78 +1,61 @@
 import React, { useState } from "react";
 import "./Navbar.css";
-import image from "../Dashboard/Images/ITEL_Logo.png"
-import { Link } from 'react-router-dom';
+import image from "../Dashboard/Images/ITEL_Logo.png";
+import { NavLink } from "react-router-dom";
+import { FaBars, FaTimes } from "react-icons/fa";
 
 function Navbar() {
-  const [incubateesOpen, setIncubateesOpen] = useState(false);
-  const [techLeadershipOpen, setTechLeadershipOpen] = useState(false);
-  const [CommitteeMembers,setCommitteeMembers]=useState(false)
+  const [menuOpen, setMenuOpen] = useState(false); // Toggle for mobile menu
 
   return (
     <div>
       <div className="Header">
-        <div >
-          <img src={image} className="logo"/>
+        <div>
+          <img src={image} className="logo" alt="ITEL Logo" />
         </div>
-        <div className="Header-nav">
 
-        <Link to="/"  className="Link" >
-          <div className="navtext" >Home</div>
-        </Link>
-       <Link to="/AboutUs"  className="Link" >
-          <div className="navtext" >About Us</div>
-        </Link>
+        {/* Mobile Menu Toggle Button */}
+        <div className="mobile-menu-icon" onClick={() => setMenuOpen(!menuOpen)}>
+          {menuOpen ? <FaTimes size={25} /> : <FaBars size={25} />}
+        </div>
+
+        {/* Navbar Links */}
+        <div className={`Header-nav ${menuOpen ? "mobile-active" : ""}`}>
+          <NavLink to="/" className="nav-link" onClick={() => setMenuOpen(false)}>Home</NavLink>
+          <NavLink to="/AboutUs" className="nav-link" onClick={() => setMenuOpen(false)}>About Us</NavLink>
 
           {/* Incubatees Dropdown */}
-          <div
-            className="dropdown"
-            onMouseEnter={() => setIncubateesOpen(true)}
-            onMouseLeave={() => setIncubateesOpen(false)}
-            
-          >
+          <div className="dropdown">
             Incubatees
-            {incubateesOpen && (
-              <div className="dropdown-content">
-                <div>Incubatees 1</div>
-                <div>Incubatees 2</div>
-                <div>Incubatees 3</div>
-              </div>
-            )}
+            <div className="dropdown-content">
+              <div>Incubatees 1</div>
+              <div>Incubatees 2</div>
+              <div>Incubatees 3</div>
+            </div>
           </div>
 
           {/* Tech Leadership Dropdown */}
-          <div
-            className="dropdown"
-            onMouseEnter={() => setTechLeadershipOpen(true)}
-            onMouseLeave={() => setTechLeadershipOpen(false)}
-          >
+          <div className="dropdown">
             Tech Leadership Initiatives
-            {techLeadershipOpen && (
-              <div className="dropdown-content">
-                <div>Initiative 1</div>
-                <div>Initiative 2</div>
-                <div>Initiative 3</div>
-              </div>
-            )}
+            <div className="dropdown-content">
+              <div>Initiative 1</div>
+              <div>Initiative 2</div>
+              <div>Initiative 3</div>
+            </div>
           </div>
 
-          <div
-           className="dropdown"
-           onMouseEnter={() => setCommitteeMembers(true)}
-           onMouseLeave={() => setCommitteeMembers(false)}
-          >Committee  Members
-          {CommitteeMembers && (
-              <div className="dropdown-content">
-                <div>Initiative 1</div>
-                <div>Initiative 2</div>
-                <div>Initiative 3</div>
-              </div>
-            )}
-
-
+          {/* Committee Members Dropdown */}
+          <div className="dropdown">
+            Committee Members
+            <div className="dropdown-content">
+              <div>Member 1</div>
+              <div>Member 2</div>
+              <div>Member 3</div>
+            </div>
           </div>
-          <div>Partnerships</div>
-          <div>Careers</div>
+
+          <NavLink to="/partnerships" className="nav-link" onClick={() => setMenuOpen(false)}>Partnerships</NavLink>
+          <NavLink to="/careers" className="nav-link" onClick={() => setMenuOpen(false)}>Careers</NavLink>
         </div>
       </div>
     </div>

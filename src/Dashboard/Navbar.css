@@ -1,3 +1,4 @@
+/* Header */
 .Header {
   display: flex;
   justify-content: space-between;
@@ -10,80 +11,148 @@
   align-items: center;
   cursor: pointer;
   box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.5);
-
-  position: fixed;  /* ✅ Keeps it fixed at the top */
-  top: 0;           /* ✅ Ensures it sticks to the very top */
-  left: 0;          /* ✅ Ensures it spans from the left */
-  width: 100%;      /* ✅ Ensures full-width */
-  z-index: 1000;    /* ✅ Ensures it's above other content */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
 }
 
-/* To prevent content from being hidden behind the fixed header */
+/* Prevent content from being hidden behind the fixed navbar */
 body {
-  padding-top: 80px;  /* ✅ Adjust this value to match your header height */
+  padding-top: 80px;
 }
 
-
-  .logo{
-     width: 100px
-  }
- 
-  .Header-nav {
-    display: flex;
-    gap: 3.5rem;
-    position: relative;
-  }
-  
-  .dropdown {
-    position: relative;
-    cursor: pointer;
-  }
-  .Link{
-    text-decoration: none;
-    color:#2b8a3e
-  }
-
-  .nav-link {
-    text-decoration: none;
-    color: black;
-    font-size: 1.2rem;
-    padding: 0.5rem;
-    transition: color 0.3s ease;
+/* Logo */
+.logo {
+  width: 100px;
 }
 
+/* Navbar Links */
+.Header-nav {
+  display: flex;
+  gap: 3.5rem;
+  position: relative;
+  align-items: center; /* Ensures vertical alignment */
+}
+
+/* Mobile Menu Icon */
+.mobile-menu-icon {
+  display: none;
+  cursor: pointer;
+  color: #2b8a3e;
+}
+
+/* Dropdown Container */
+.dropdown {
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  align-items: center; /* Align dropdown trigger text with nav links */
+}
+
+/* Dropdown Content */
+.dropdown-content {
+  position: absolute;
+  top: 2.5rem;
+  left: 0;
+  background-color: white;
+  color: #212529;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 0.5rem 0;
+  width: 200px;
+  display: none; /* Initially hidden */
+  flex-direction: column;
+  z-index: 100;
+}
+
+/* Show dropdown content on hover */
+.dropdown:hover .dropdown-content {
+  display: flex; /* Show on hover */
+}
+
+/* Dropdown Item Hover Effect */
+.dropdown-content div {
+  padding: 10px;
+  font-size: 1.5rem;
+  transition: background 0.3s ease-in-out;
+}
+
+.dropdown-content div:hover {
+  background-color: #2b8a3e;
+  color: white;
+}
+
+/* Navigation Links */
+.nav-link {
+  text-decoration: none;
+  color: #2b8a3e;
+  font-size: 1.8rem;
+  padding: 0.5rem;
+  transition: color 0.3s ease;
+}
+
+/* Hover and Active Effects */
 .nav-link:hover {
-    color: blue; /* Change color on hover */
+  color: #2b8a3e;
 }
 
 .active {
-    color: blue; /* Change color when active */
-    font-weight: bold;
-    border-bottom: 3px solid blue; /* Underline when active */
+  color: #2b8a3e;
+  font-weight: bold;
+  border-bottom: 3px solid #f59f00;
 }
 
+/* ========== Responsive Styles ========== */
+@media screen and (max-width: 1024px) {
+  .Header-nav {
+      gap: 2rem;
+  }
+}
+
+/* Mobile View (Small Screens) */
+@media screen and (max-width: 768px) {
+  .mobile-menu-icon {
+      display: block;
+  }
+
+  .Header-nav {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 70px;
+      left: 0;
+      width: 100%;
+      background-color: #ebfbee;
+      text-align: center;
+      padding: 1rem 0;
+      box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+  }
+
+  .Header-nav.mobile-active {
+      display: flex;
+  }
+
+  .nav-link {
+      padding: 1rem;
+      font-size: 1.5rem;
+  }
+
+  .dropdown {
+      width: 100%;
+      text-align: center;
+  }
+
   .dropdown-content {
-    position: absolute;
-    top: 2.5rem;
-    left: 0;
-    background-color: white;
-    color: #212529;
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
-    border-radius: 5px;
-    padding: 0.5rem 0;
-    width: 200px;
-    display: flex;
-    flex-direction: column;
-    z-index: 100;
+      position: static;
+      box-shadow: none;
+      background: none;
+      width: 100%;
   }
-  
+
   .dropdown-content div {
-    padding: 10px;
-    font-size: 1.5rem;
-    transition: background 0.3s ease-in-out;
+      background: #fff;
+      border-bottom: 1px solid #ddd;
   }
-  
-  .dropdown-content div:hover {
-    background-color: #2b8a3e;
-    color: white;
-  }
-  
+}
