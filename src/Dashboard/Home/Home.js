@@ -8,7 +8,7 @@ function Aboutus() {
       <div className='aboutUs'> 
         <div>
             <p className='aboutus-description'> 
-            Immersive Technology and Entrepreneurship Labs <span style={{color:"#2b8a3e"}}>ITEL :</span>  <p className='text'>Empowering India Through Technology Leadership </p> 
+            Immersive Technology and Entrepreneurship Labs <span style={{color:"#2b8a3e"}}>ITEL :</span>  <p className='text'>Empowering India Through Technology Leadership</p> 
             </p> 
             
         </div>

@@ -16,6 +16,7 @@
   left: 0;
   width: 100%;
   z-index: 1000;
+  font-family: serif;
 }
 
 /* Prevent content from being hidden behind the fixed navbar */
@@ -46,6 +47,7 @@ body {
 .link{
   text-decoration: none;
   color: #212529;
+  /* whiteSpace: nowrap; */
 
 }
 

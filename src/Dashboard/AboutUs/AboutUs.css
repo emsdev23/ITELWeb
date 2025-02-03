@@ -3,6 +3,10 @@
     margin: 0rem 6rem;
     padding: 8rem 10rem;
     font-size: 2rem;
+    font-family: serif;
+    line-height: 3.2rem;
+    letter-spacing: 0.04rem;
+    word-spacing: 0.32rem;
     /* background-color: aqua; */
 }
 .Heading{
@@ -11,4 +15,7 @@
 }
 .imp{
     font-style:italic;
+}
+ul{
+    padding-left: 6.3rem;
 }

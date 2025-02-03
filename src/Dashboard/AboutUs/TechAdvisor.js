@@ -9,8 +9,8 @@ import React from 'react'
 function TechAdvisor() {
   return (
     <div className='description'>
-    <h1 style={{textAlign:"center",fontSize:"4rem",fontWeight:"800"}}>Technical Advisory </h1>
-    <ul style={{display:"grid",gridTemplateColumns: "repeat(2, 1fr)",listStyle: "none", padding: "3.2rem",justifyItems:"center",fontSize:"2.3rem",fontWeight:"700" }}>
+    <h1 style={{textAlign:"center",fontSize:"4rem",fontWeight:"800"}}>Technical Advisory Committee </h1>
+    <ul style={{display:"grid",gridTemplateColumns: "repeat(2, 1fr)",listStyle: "none", padding: "2.5rem",justifyItems:"center",fontSize:"2.3rem",fontWeight:"700" }}>
         <li>Prof Ashok Jhunjhunwala</li>
         <li>Prof. Kaushal Kumar Jha</li>
         <li>Prof L. Kannan</li>
@@ -25,7 +25,7 @@ function TechAdvisor() {
 <li>Dr. Juzer Vasi</li>
 <li>Kumar N Sivarajan</li>
 <li>Prof. Devendra Jallihal</li>
-<li> J Narayanan</li>P
+<li> J Narayanan</li>
 <li>Prof. K N  Satyanarayana</li>
 <li>Prof. Mohanasankar Sivaprakasam</li>
 <li>Prof. Anil Prabhakar</li>

@@ -3,6 +3,7 @@ import "./Navbar.css";
 import image from "../Dashboard/Images/ITEL_Logo.png";
 import { NavLink } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
+import { RiArrowDropDownLine } from "react-icons/ri";
 
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false); // Toggle for mobile menu
@@ -26,7 +27,7 @@ function Navbar() {
 
           {/* Incubatees Dropdown */}
           <div className="dropdown">
-            Incubatees
+            Incubatees<RiArrowDropDownLine size="35px" />
             <div className="dropdown-content">
               <div>Incubatees 1</div>
               <div>Incubatees 2</div>
@@ -36,7 +37,7 @@ function Navbar() {
 
           {/* Tech Leadership Dropdown */}
           <div className="dropdown">
-            Tech Leadership Initiatives
+            Tech Leadership Initiatives<RiArrowDropDownLine size="35px" />
             <div className="dropdown-content">
               <div>Initiative 1</div>
               <div>Initiative 2</div>
@@ -46,16 +47,16 @@ function Navbar() {
 
           {/* Committee Members Dropdown */}
           <div className="dropdown">
-            Committee Members
+            Committee Members<RiArrowDropDownLine size="35px" />
             <div className="dropdown-content">
               <div > 
-                 <NavLink to="/AdvisorBoard"  className="link" >Advisory Board </NavLink>
+                 <NavLink to="/AdvisorBoard"  className="link" >Advisory Board Committee </NavLink>
               </div>
               <div >
-              <NavLink to="/TechAdvisor" className="link">Technical Advisory</NavLink>
+              <NavLink to="/TechAdvisor" className="link">Technical Advisory Committee</NavLink>
               </div>
               <div >
-              <NavLink to="/incubationItel" className="link">ITEL Incubation</NavLink>
+              <NavLink to="/incubationItel" className="link">ITEL Incubation Committee</NavLink>
               </div>
             </div>
           </div>

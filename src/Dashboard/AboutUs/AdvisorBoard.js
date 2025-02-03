@@ -2,9 +2,9 @@ import React from 'react'
 
 function AdvisorBoard() {
   return (
-    <div className='description'>
+    <div className='description' style={{fontFamily: "sarif"}}>
         <h1 style={{textAlign:"center",fontSize:"4rem",fontWeight:"800"}}>Advisory Board </h1>
-        <ul style={{display:"grid",gridTemplateColumns: "repeat(2, 1fr)",listStyle: "none", padding: "3.2rem",justifyItems:"center",fontSize:"2.3rem",fontWeight:"700" }}>
+        <ul style={{display:"grid",gridTemplateColumns: "repeat(2, 1fr)",listStyle: "none", padding: "2.5rem",justifyItems:"center",fontSize:"2.3rem",fontWeight:"700" }}>
             <li>Kris Gopalakrishnan</li>
             <li>Ajai Chowdhry</li>
             <li>Arun Jain</li>
