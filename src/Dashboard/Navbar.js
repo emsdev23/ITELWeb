@@ -16,28 +16,43 @@ function Navbar() {
         </div>
 
         {/* Mobile Menu Toggle Button */}
-        <div className="mobile-menu-icon" onClick={() => setMenuOpen(!menuOpen)}>
+        <div
+          className="mobile-menu-icon"
+          onClick={() => setMenuOpen(!menuOpen)}
+        >
           {menuOpen ? <FaTimes size={25} /> : <FaBars size={25} />}
         </div>
 
         {/* Navbar Links */}
         <div className={`Header-nav ${menuOpen ? "mobile-active" : ""}`}>
-          <NavLink to="/" className="nav-link" onClick={() => setMenuOpen(false)}>Home</NavLink>
-          <NavLink to="/AboutUs" className="nav-link" onClick={() => setMenuOpen(false)}>About Us</NavLink>
+          <NavLink
+            to="/"
+            className="nav-link"
+            onClick={() => setMenuOpen(false)}
+          >
+            Home
+          </NavLink>
+          <NavLink
+            to="/AboutUs"
+            className="nav-link"
+            onClick={() => setMenuOpen(false)}
+          >
+            About Us
+          </NavLink>
 
           {/* Incubatees Dropdown */}
-          <div className="dropdown">
-            Incubatees<RiArrowDropDownLine size="35px" />
-            <div className="dropdown-content">
-              <div>Incubatees 1</div>
-              <div>Incubatees 2</div>
-              <div>Incubatees 3</div>
-            </div>
-          </div>
+          <NavLink
+            to="/IncubatedCompanies"
+            className="nav-link"
+            onClick={() => setMenuOpen(false)}
+          >
+            Incubatees
+          </NavLink>
 
           {/* Tech Leadership Dropdown */}
           <div className="dropdown">
-            Tech Leadership Initiatives<RiArrowDropDownLine size="35px" />
+            Tech Leadership Initiatives
+            <RiArrowDropDownLine size="35px" />
             <div className="dropdown-content">
               <div>Initiative 1</div>
               <div>Initiative 2</div>
@@ -47,22 +62,41 @@ function Navbar() {
 
           {/* Committee Members Dropdown */}
           <div className="dropdown">
-            Committee Members<RiArrowDropDownLine size="35px" />
+            Committee Members
+            <RiArrowDropDownLine size="35px" />
             <div className="dropdown-content">
-              <div > 
-                 <NavLink to="/AdvisorBoard"  className="link" >Advisory Board Committee </NavLink>
+              <div>
+                <NavLink to="/AdvisorBoard" className="link">
+                  Advisory Board Committee{" "}
+                </NavLink>
               </div>
-              <div >
-              <NavLink to="/TechAdvisor" className="link">Technical Advisory Committee</NavLink>
+              <div>
+                <NavLink to="/TechAdvisor" className="link">
+                  Technical Advisory Committee
+                </NavLink>
               </div>
-              <div >
-              <NavLink to="/incubationItel" className="link">ITEL Incubation Committee</NavLink>
+              <div>
+                <NavLink to="/incubationItel" className="link">
+                  ITEL Incubation Committee
+                </NavLink>
               </div>
             </div>
           </div>
 
-          <NavLink to="/partnerships" className="nav-link" onClick={() => setMenuOpen(false)}>Partnerships</NavLink>
-          <NavLink to="/careers" className="nav-link" onClick={() => setMenuOpen(false)}>Careers</NavLink>
+          <NavLink
+            to="/partnerships"
+            className="nav-link"
+            onClick={() => setMenuOpen(false)}
+          >
+            Partnerships
+          </NavLink>
+          <NavLink
+            to="/careers"
+            className="nav-link"
+            onClick={() => setMenuOpen(false)}
+          >
+            Careers
+          </NavLink>
         </div>
       </div>
     </div>

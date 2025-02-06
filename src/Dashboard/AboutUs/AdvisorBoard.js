@@ -1,32 +1,83 @@
-import React from 'react'
+import React from "react";
 
 function AdvisorBoard() {
   return (
-    <div className='description' style={{fontFamily: "sarif"}}>
-        <h1 style={{textAlign:"center",fontSize:"4rem",fontWeight:"800"}}>Advisory Board </h1>
-        <ul style={{display:"grid",gridTemplateColumns: "repeat(2, 1fr)",listStyle: "none", padding: "2.5rem",justifyItems:"center",fontSize:"2.3rem",fontWeight:"700" }}>
-            <li>Kris Gopalakrishnan</li>
-            <li>Ajai Chowdhry</li>
-            <li>Arun Jain</li>
-            <li>Ashish Dhawan</li>
-            <li>Anand Deshpande</li>
-            <li>Sanjeev Bikhchandani</li>
-           <li>Rajan Anandan</li>
-           <li>Shridhar Shukla</li>
-           <li>Mukesh Bansal</li>
-           <li>Abhishek Singhania </li>
-           <li>C P Gurnani</li>
-           <li>Srini Raju</li>
-           <li>P S Narayan</li>
-           <li>Manish Dhingra</li>
-           <li>Gaurav Bhatnagar</li>
-           <li>Amit Chaddha</li> 
-           <li>Prof Ashok Jhunjhunwala</li>
-           <li>Venkataraman Rajaraman</li>
-           <li>Saurabh Srivastav</li>
-        </ul>
+    <div className="description" style={{ fontFamily: "sarif" }}>
+      <h1
+        style={{
+          textAtrgn: "center",
+          fontSize: "4rem",
+          fontWeight: "800",
+          color: "#087f5b",
+        }}
+      >
+        Advisory Board{" "}
+      </h1>
+      <table class="table table-hover">
+        <tbody>
+          <tr>
+            <td>Kris Gopalakrishnan</td>
+          </tr>
+
+          <tr>
+            <td>Ajai Chowdhry</td>
+          </tr>
+          <tr>
+            <td>Arun Jain</td>
+          </tr>
+          <tr>
+            <td>Ashish Dhawan</td>
+          </tr>
+          <tr>
+            <td>Anand Deshpande</td>
+          </tr>
+          <tr>
+            <td>Sanjeev Bikhchandani</td>
+          </tr>
+          <tr>
+            <td>Rajan Anandan</td>
+          </tr>
+          <tr>
+            <td>Shridhar Shukla</td>
+          </tr>
+          <tr>
+            <td>Mukesh Bansal</td>
+          </tr>
+          <tr>
+            <td>Abhishek Singhania</td>
+          </tr>
+          <tr>
+            <td>C. P. Gurnani</td>
+          </tr>
+          <tr>
+            <td>Srini Raju</td>
+          </tr>
+          <tr>
+            {" "}
+            <td>P. S. Narayan</td>
+          </tr>
+          <tr>
+            <td>Manish Dhingra</td>
+          </tr>
+          <tr>
+            <td>Gaurav Bhatnagar</td>
+          </tr>
+          <tr>
+            <td>Amit Chaddha</td>
+          </tr>
+          <tr>
+            <td>Prof Ashok Jhunjhunwala</td>
+          </tr>
+          <tr>
+            <td>Venkataraman Rajaraman</td>
+          </tr>
+          <tr>
+            <td>Saurabh Srivastav</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
-  )
+  );
 }
 
-export default AdvisorBoard
+export default AdvisorBoard;

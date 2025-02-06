@@ -1,21 +1,29 @@
-.description{
-    /* width: 100rem; */
-    margin: 0rem 6rem;
-    padding: 8rem 10rem;
-    font-size: 2rem;
-    font-family: serif;
-    line-height: 3.2rem;
-    letter-spacing: 0.04rem;
-    word-spacing: 0.32rem;
-    /* background-color: aqua; */
+.description {
+  /* width: 100rem; */
+  margin: 0rem 6rem;
+  padding: 8rem 10rem;
+  font-size: 2rem;
+  font-family: serif;
+  line-height: 3.2rem;
+  letter-spacing: 0.04rem;
+  word-spacing: 0.32rem;
+  /* background-color: aqua; */
 }
-.Heading{
-    font-size: 3rem;
-    color:#087f5b;
+.Heading {
+  font-size: 3rem;
+  color: #087f5b;
 }
-.imp{
-    font-style:italic;
+.imp {
+  font-style: italic;
 }
-ul{
-    padding-left: 6.3rem;
+ul {
+  padding-left: 6.3rem;
+}
+
+.navlink {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  text-decoration: none;
+  color: #087f5b;
 }
