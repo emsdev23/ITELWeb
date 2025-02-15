@@ -6,7 +6,7 @@ import company3 from "../Images/company3.png";
 import company4 from "../Images/company4.png";
 import company5 from "../Images/company5.png";
 import company6 from "../Images/company6.png";
-import company7 from "../Images/company7.png";
+import company7 from "../Images/company7 .png";
 import { FaArrowUpRightFromSquare } from "react-icons/fa6";
 import { FaArrowRight } from "react-icons/fa";
 function IncubatedCompanies() {
@@ -26,11 +26,13 @@ function IncubatedCompanies() {
             solutions for a variety of applications.
           </p>
           <div className="company-website">
-            <a href="https://xterrarobotics.com/">More</a>
+            <a href="https://xterrarobotics.com/" target="_blank">
+              More
+            </a>
             <sup>
               <FaArrowUpRightFromSquare
                 size="8px"
-                color="#339af0"
+                color="#087f5b"
                 style={{ marginBottom: "-2rem" }}
               />
             </sup>
@@ -52,12 +54,14 @@ function IncubatedCompanies() {
           </p>
           <div className="company-website">
             <div>
-              <a href="https://www.zealev.com/">More</a>
+              <a href="https://www.zealev.com/" target="_blank">
+                More
+              </a>
             </div>
             <sup>
               <FaArrowUpRightFromSquare
                 size="8px"
-                color="#339af0"
+                color="#087f5b"
                 style={{ marginBottom: "-2rem" }}
               />
             </sup>
@@ -84,12 +88,14 @@ function IncubatedCompanies() {
           </p>
           <div className="company-website">
             <div>
-              <a href="https://shabd.technology/">More</a>
+              <a href="https://shabd.technology/" target="_blank">
+                More
+              </a>
             </div>
             <sup>
               <FaArrowUpRightFromSquare
                 size="8px"
-                color="#339af0"
+                color="#087f5b"
                 style={{ marginBottom: "-2rem" }}
               />
             </sup>
@@ -115,12 +121,14 @@ function IncubatedCompanies() {
           </p>
           <div className="company-website">
             <div>
-              <a href="https://www.intercosmos.co/">More</a>
+              <a href="https://www.intercosmos.co/" target="_blank">
+                More
+              </a>
             </div>
             <sup>
               <FaArrowUpRightFromSquare
                 size="8px"
-                color="#339af0"
+                color="#087f5b"
                 style={{ marginBottom: "-2rem" }}
               />
             </sup>
@@ -144,12 +152,14 @@ function IncubatedCompanies() {
           </p>
           <div className="company-website">
             <div>
-              <a href="https://aipsychi.org/">More</a>
+              <a href="https://aipsychi.org/" target="_blank">
+                More
+              </a>
             </div>
             <sup>
               <FaArrowUpRightFromSquare
                 size="8px"
-                color="#339af0"
+                color="#087f5b"
                 style={{ marginBottom: "-2rem" }}
               />
             </sup>
@@ -178,7 +188,7 @@ function IncubatedCompanies() {
             <sup>
               <FaArrowUpRightFromSquare
                 size="8px"
-                color="#339af0"
+                color="#087f5b"
                 style={{ marginBottom: "-2rem" }}
               />
             </sup>
@@ -201,12 +211,14 @@ function IncubatedCompanies() {
           </p>
           <div className="company-website">
             <div>
-              <a href="https://www.panoculonlabs.com/">More</a>
+              <a href="https://www.panoculonlabs.com/" target="_blank">
+                More
+              </a>
             </div>
             <sup>
               <FaArrowUpRightFromSquare
                 size="8px"
-                color="#339af0"
+                color="#087f5b"
                 style={{ marginBottom: "-2rem" }}
               />
             </sup>

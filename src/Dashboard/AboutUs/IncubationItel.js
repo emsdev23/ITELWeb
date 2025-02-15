@@ -1,9 +1,11 @@
 import React from "react";
+import "./AboutUs.css";
 
 function IncubationItel() {
   return (
     <div className="description" style={{ fontFamily: "sarif" }}>
       <h1
+        className="Heading"
         style={{
           textAtrgn: "center",
           fontSize: "4rem",

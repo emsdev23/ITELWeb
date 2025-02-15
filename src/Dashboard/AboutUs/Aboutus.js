@@ -130,22 +130,22 @@ function Aboutus() {
                 borderRight: "1px solid #FFF",
               }}
             >
-              <h2 class="accordion-header" id="headingOne">
+              <h2 class="accordion-header" id="headingTwo">
                 <button
-                  class="accordion-button"
+                  class="accordion-button collapsed"
                   type="button"
                   data-bs-toggle="collapse"
                   data-bs-target="#collapseOne"
-                  aria-expanded="true"
+                  aria-expanded="false"
                   aria-controls="collapseOne"
                   style={{ fontSize: "3rem", color: "#087f5b" }}
                 >
-                  Background and Rationale
+                  <p className="Heading">Background and Rationale</p>
                 </button>
               </h2>
               <div
                 id="collapseOne"
-                class="accordion-collapse collapse "
+                class="accordion-collapse collapse"
                 aria-labelledby="headingOne"
                 data-bs-parent="#accordionExample"
               >
@@ -261,6 +261,7 @@ function Aboutus() {
                 </div>
               </div>
             </div>
+
             <div
               class="accordion-item"
               style={{
@@ -279,7 +280,7 @@ function Aboutus() {
                   aria-controls="collapseTwo"
                   style={{ fontSize: "3rem", color: "#087f5b" }}
                 >
-                  Experiences
+                  <p className="Heading">Experiences</p>
                 </button>
               </h2>
               <div
@@ -461,7 +462,7 @@ function Aboutus() {
                   aria-controls="collapseThree"
                   style={{ fontSize: "3rem", color: "#087f5b" }}
                 >
-                  Key Insights
+                  <p className="Heading">Key Insights</p>
                 </button>
               </h2>
               <div
@@ -575,7 +576,7 @@ function Aboutus() {
                   aria-controls="collapseFour"
                   style={{ fontSize: "3rem", color: "#087f5b" }}
                 >
-                  Future
+                  <p className="Heading">Future</p>
                 </button>
               </h2>
               <div

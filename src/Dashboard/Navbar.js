@@ -54,9 +54,46 @@ function Navbar() {
             Tech Leadership Initiatives
             <RiArrowDropDownLine size="35px" />
             <div className="dropdown-content">
-              <div>Initiative 1</div>
-              <div>Initiative 2</div>
-              <div>Initiative 3</div>
+              <div>
+                <NavLink to="/Transportation" className="link">
+                  Transportation
+                </NavLink>
+              </div>
+              <div>
+                <NavLink to="/Heating&Cooling" className="link">
+                  Heating & Cooling
+                </NavLink>
+              </div>
+              <div>
+                <NavLink to="/FintechforInclusion" className="link">
+                  Fintech for Inclusion
+                </NavLink>
+              </div>
+              <div>
+                <NavLink to="/FloodMitigation" className="link">
+                  Flood Mitigation
+                </NavLink>
+              </div>
+              <div>
+                <NavLink to="/CleanEnergy" className="link">
+                  Clean Energy
+                </NavLink>
+              </div>
+              <div>
+                <NavLink to="/AssistiveTechnology" className="link">
+                  Assistive Technology
+                </NavLink>
+              </div>
+              <div>
+                <NavLink to="/RISCV" className="link">
+                  RISC V
+                </NavLink>
+              </div>
+              <div>
+                <NavLink to="/CyberSecurity" className="link">
+                  Cyber Security
+                </NavLink>
+              </div>
             </div>
           </div>
 
