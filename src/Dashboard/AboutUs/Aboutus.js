@@ -7,7 +7,7 @@ import { FaArrowRight } from "react-icons/fa";
 function Aboutus() {
   return (
     <div className="description">
-      <div>
+      <div className="content">
         {/* <h1>Home</h1> */}
         <p>
           ITEL is committed to transforming India into a{" "}

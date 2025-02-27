@@ -10,6 +10,7 @@ function AdvisorBoard() {
           fontWeight: "800",
           color: "#087f5b",
         }}
+        className="Heading"
       >
         Advisory Board{" "}
       </h1>
