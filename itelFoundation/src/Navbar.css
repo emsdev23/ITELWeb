@@ -1,0 +1,207 @@
+/* Main Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ebfbee;
+  padding: 1rem;
+  color: #2b2b2b;
+  position: relative;
+  box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.navbar-logo {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar-menu {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-item {
+  position: relative;
+}
+
+/* Navbar & Dropdown Links */
+.navbar-link,
+.dropdown-link {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  color: #2b2b2b;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.navbar-link:hover,
+.dropdown-link:hover {
+  background-color: #e9ecef;
+  border-left: 3px solid #632ce4;
+}
+
+/* Dropdown Menu */
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #f8f9fa;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 250px;
+  border-radius: 5px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: opacity 0.3s ease-in-out, transform 0.2s ease-in-out;
+  opacity: 0;
+  transform: translateY(-10px);
+}
+/* Show dropdown on hover (for desktop) */
+@media (min-width: 769px) {
+  .navbar-item:hover .dropdown-menu {
+    display: block;
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Show dropdown when active (for click-based mobile dropdowns) */
+.dropdown-menu.active {
+  display: block;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Responsive Sidebar */
+.mobile-menu-icon {
+  display: none;
+  cursor: pointer;
+  font-size: 1.8rem;
+  padding: 0.5rem;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: -250px;
+  width: 300px;
+  height: 100%;
+  background-color: #ebfbee;
+  padding: 20px;
+  transition: left 0.3s ease-in-out;
+  z-index: 1003; /* Higher than overlay */
+  color: black;
+  overflow-y: auto; /* Enable sidebar scrolling */
+}
+
+/* Sidebar should appear when active */
+.sidebar.active {
+  left: 0;
+}
+
+/* Sidebar Header */
+.sidebar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #444;
+}
+
+.close-icon {
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+/* Sidebar Menu */
+.sidebar-menu {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+/* Sidebar Items */
+.sidebar-menu .navbar-item {
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+/* Sidebar Dropdown */
+.sidebar-menu .dropdown-menu {
+  position: static;
+  background: none;
+  box-shadow: none;
+  display: none;
+  opacity: 1;
+  transform: none;
+  width: auto;
+  max-height: 200px; /* Set max height */
+  overflow-y: auto; /* Enable scrolling */
+}
+
+/* Show dropdown in sidebar when active */
+.sidebar-menu .dropdown-menu.active {
+  display: block;
+}
+
+/* Sidebar Dropdown Item */
+.sidebar-menu .dropdown-item {
+  padding-left: 1rem;
+}
+
+/* Overlay to close sidebar */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1002;
+}
+
+/* Responsive - Hide Desktop Menu in Mobile */
+@media (max-width: 768px) {
+  .navbar-menu {
+    display: none;
+  }
+
+  .mobile-menu-icon {
+    display: block;
+  }
+
+  /* Allow dropdowns to expand properly inside sidebar */
+  .dropdown-menu {
+    position: relative;
+    width: 100%;
+    background: none;
+    box-shadow: none;
+    display: none;
+    max-height: 200px; /* Set height to prevent cutoff */
+    overflow-y: auto; /* Enable scrolling */
+  }
+
+  /* Customize Scrollbar for WebKit Browsers (Chrome, Safari) */
+  .dropdown-menu::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  .dropdown-menu::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+  .dropdown-menu::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+  }
+}
