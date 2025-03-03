@@ -126,4 +126,9 @@ export const SidebarData = [
     path: "/Partnerships",
     //icon: <AiOutlineApartment size="20px" />,
   },
+  {
+    title: "careers",
+    path: "/careers",
+    //icon: <AiOutlineApartment size="20px" />,
+  },
 ];

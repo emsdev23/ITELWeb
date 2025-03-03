@@ -25,6 +25,7 @@ import Partnership from "./pages/Partnership/Partnership";
 import ScrollToTop from "./ScrollToTop ";
 
 import Navbar from "./Navbar ";
+import Careers from "./pages/Careers/Careers";
 function App() {
   return (
     <Router>
@@ -54,6 +55,7 @@ function App() {
         <Route path="/TechnicalAdvisoryCommittee" element={<TechAdvisor />} />
 
         <Route path="/Partnerships" element={<Partnership />} />
+        <Route path="/careers" element={<Careers />} />
       </Routes>
     </Router>
   );
