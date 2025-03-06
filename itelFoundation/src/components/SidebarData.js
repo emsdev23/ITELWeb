@@ -24,7 +24,7 @@ import { FaPeopleGroup } from "react-icons/fa6";
 import { AiOutlineApartment } from "react-icons/ai";
 export const SidebarData = [
   {
-    title: "Overview",
+    title: "Home",
     path: "/",
     // icon: <AiIcons.AiFillHome size="20px" />,
     iconClosed: <RiIcons.RiArrowDownSFill />,
@@ -37,7 +37,7 @@ export const SidebarData = [
   },
 
   {
-    title: "incubatees",
+    title: "Incubatees",
     path: "/incubatees",
     //icon: <FaChalkboardTeacher size="20px" />,
   },

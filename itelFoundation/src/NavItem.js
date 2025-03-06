@@ -1,21 +1,39 @@
 import { Link } from "react-router-dom";
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 
-const NavItem = ({ item, onClick }) => {
+const NavItem = ({ item, onClick = () => {} }) => {
+  // ✅ Default empty function to prevent errors
   const [isOpen, setIsOpen] = useState(false);
+  const dropdownRef = useRef(null);
 
+  // Toggle dropdown on click
   const toggleDropdown = (e) => {
-    e.stopPropagation(); // Prevent parent click handlers from closing it
-    setIsOpen(!isOpen);
+    e.stopPropagation(); // ✅ Prevents event bubbling
+    setIsOpen((prev) => !prev);
   };
 
+  // Close dropdown when clicking outside
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+        setIsOpen(false);
+      }
+    };
+
+    document.addEventListener("click", handleClickOutside);
+    return () => {
+      document.removeEventListener("click", handleClickOutside);
+    };
+  }, []);
+
   return (
-    <li className="navbar-item">
-      {/* Use Link only if item.path exists */}
+    <li className="navbar-item" ref={dropdownRef}>
+      {/* Main Heading (Click to toggle) */}
       {item.path ? (
         <Link to={item.path} className="navbar-link" onClick={onClick}>
           {item.icon}
           <span
+            className="nav-text"
             style={{ fontSize: "1.8rem", fontWeight: 600, color: "#2b8a3e" }}
           >
             {item.title}
@@ -33,11 +51,12 @@ const NavItem = ({ item, onClick }) => {
           }}
         >
           {item.icon}
-          <span>{item.title}</span>
+          <span className="nav-text">{item.title}</span>
           {item.subNav && (isOpen ? item.iconOpened : item.iconClosed)}
         </div>
       )}
 
+      {/* Dropdown (Shows on click) */}
       {item.subNav && (
         <ul className={`dropdown-menu ${isOpen ? "active" : ""}`}>
           {item.subNav.map((subItem, subIndex) => (
@@ -45,14 +64,16 @@ const NavItem = ({ item, onClick }) => {
               <Link
                 to={subItem.path}
                 className="dropdown-link"
-                onClick={onClick}
+                onClick={() => {
+                  setIsOpen(false); // ✅ Close dropdown on sub-item click
+                  if (typeof onClick === "function") onClick(); // ✅ Call only if onClick is a function
+                }}
               >
                 {subItem.icon}
                 <span
+                  className="subnav-text"
                   style={{
                     fontSize: "1.5rem",
-                    borderBottom: "1px solid #e9ecef",
-                    width: "100%",
                     fontWeight: 600,
                     color: "#2b8a3e",
                     whiteSpace: "pre",

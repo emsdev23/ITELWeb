@@ -207,7 +207,7 @@ function Incubatees() {
             <img src={company7} />
           </div>
           <div className="company-description">
-            <p className="company-name">Panoculan Labs</p>
+            <p className="company-name">Panoculon Labs</p>
             <p className="company-desc">
               The Panocle (Panoculon Spectacle) is an inclusive AI-powered smart
               spectacle. Think an extension to your smartphone which can see and
