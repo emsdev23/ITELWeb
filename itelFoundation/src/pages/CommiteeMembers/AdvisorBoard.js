@@ -75,6 +75,36 @@ function AdvisorBoard() {
           <tr>
             <td>Saurabh Srivastav</td>
           </tr>
+          <tr>
+            <td>Debjani Ghosh</td>
+          </tr>
+          <tr>
+            <td>Raman Roy</td>
+          </tr>
+          <tr>
+            <td>Ravi Venkatesan</td>
+          </tr>
+          <tr>
+            <td>Chirag Gupta</td>
+          </tr>
+          <tr>
+            <td>Manu Iyer</td>
+          </tr>
+          <tr>
+            <td>Sharad Sharma</td>
+          </tr>
+          <tr>
+            <td>Sunil Bhumralkar</td>
+          </tr>
+          <tr>
+            <td>Srinivasa Rao</td>
+          </tr>
+          <tr>
+            <td>BS Teeka</td>
+          </tr>
+          <tr>
+            <td>Kumar Vembu</td>
+          </tr>
         </tbody>
       </table>
     </div>

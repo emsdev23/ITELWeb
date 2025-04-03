@@ -53,13 +53,13 @@ function TechAdvisor() {
             <td>Dr. Juzer Vasi</td>
           </tr>
           <tr>
-            <td>Kumar N Sivarajan</td>
+            <td>Dr. Kumar N Sivarajan</td>
           </tr>
           <tr>
             <td>Prof. Devendra Jallihal</td>
           </tr>
           <tr>
-            <td>P. J. Narayanan</td>
+            <td>Prof. P J Narayanan</td>
           </tr>
           <tr>
             <td>Prof. K N  Satyanarayana</td>
@@ -80,10 +80,31 @@ function TechAdvisor() {
             <td>Dr. Anjan K Ray</td>
           </tr>
           <tr>
-            <td>Ashish Lele</td>
+            <td>Dr. Ashish Lele</td>
           </tr>
           <tr>
             <td>Prof Satyanarayanan Seshadri</td>
+          </tr>
+          <tr>
+            <td>Prof. Rajnish Kumar</td>
+          </tr>
+          <tr>
+            <td>Prof. G Venkatesh</td>
+          </tr>
+          <tr>
+            <td>Prof. Aravind Kumar Chandiran</td>
+          </tr>
+          <tr>
+            <td>Nikhil Jain</td>
+          </tr>
+          <tr>
+            <td>Dr. Uday Khankhoje</td>
+          </tr>
+          <tr>
+            <td>Rajesh Jain</td>
+          </tr>
+          <tr>
+            <td>Dr. Pawan Goenka</td>
           </tr>
         </tbody>
       </table>

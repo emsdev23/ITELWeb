@@ -38,7 +38,7 @@ function AboutUs() {
           <br />
           <div>
             <div>
-              <NavLink to="/AdvisorBoard" className="navlink">
+              <NavLink to="/AdvisoryCommitteeMembers" className="navlink">
                 <p>
                   <FaArrowRight size="15px" color="#282c34" />
                 </p>
@@ -52,7 +52,7 @@ function AboutUs() {
               </NavLink>
             </div>
             <div>
-              <NavLink to="/TechAdvisor" className="navlink">
+              <NavLink to="/TechnicalAdvisoryCommittee" className="navlink">
                 <p>
                   <FaArrowRight size="15px" color="#282c34" />
                 </p>
@@ -69,7 +69,7 @@ function AboutUs() {
             </div>
 
             <div>
-              <NavLink to="/incubationItel" className="navlink">
+              <NavLink to="/ITELIncubationCommittee" className="navlink">
                 <p>
                   <FaArrowRight size="15px" color="#282c34" />
                 </p>
