@@ -7,6 +7,7 @@ import company4 from "../../Images/company4.png";
 import company5 from "../../Images/company5.png";
 import company6 from "../../Images/company6.png";
 import company7 from "../../Images/company7 .png";
+import thrshullogo from "../../Images/Trishul Logo.png";
 
 import kreynAI from "../../Images/Kreyn AI Logo File.PNG";
 import AIRESQLogo from "../../Images/AIRESQ_LOGO.png";
@@ -184,7 +185,7 @@ function Incubatees() {
 
         <div className="compnaies-list">
           <div className="company-logo">
-            <img src={company6} alt="company" />
+            <img src={thrshullogo} alt="company" />
           </div>
           <div className="company-description">
             <p className="company-name">Trishulopulsion Technology Pvt. Ltd.</p>
