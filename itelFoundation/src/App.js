@@ -26,6 +26,7 @@ import ScrollToTop from "./ScrollToTop ";
 
 import Navbar from "./Navbar ";
 import Careers from "./pages/Careers/Careers";
+import Footer from "./pages/Footer/Footer";
 function App() {
   return (
     <Router>
@@ -57,6 +58,7 @@ function App() {
         <Route path="/Partnerships" element={<Partnership />} />
         <Route path="/careers" element={<Careers />} />
       </Routes>
+      <Footer />
     </Router>
   );
 }
