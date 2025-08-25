@@ -10,16 +10,19 @@ function AboutUs() {
       <div className="description">
         <div className="content">
           {/* <h1>Home</h1> */}
-          <h3 className="Heading">
-            From labs to life-changing impact, we build solutions for India’s
-            toughest problems!
-          </h3>
+          <div className="Herosection">
+            <div className="herohead">
+              From labs to life-changing impact, we build solutions for India’s
+              toughest problems!
+            </div>
 
-          <div>
-            At ITEL, we converge to tackle impossible challenges and create
-            breakthrough innovations — and we support them to transform their
-            bold ideas into scalable solutions that impact lives!
+            <div>
+              At ITEL, we converge to tackle impossible challenges and create
+              breakthrough innovations — and we support them to transform their
+              bold ideas into scalable solutions that impact lives!
+            </div>
           </div>
+
           <br />
 
           {/* Legacy */}

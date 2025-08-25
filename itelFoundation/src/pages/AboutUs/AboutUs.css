@@ -9,6 +9,18 @@
   word-spacing: 0.32rem;
   /* background-color: aqua; */
 }
+
+.Herosection {
+  width: 80%;
+}
+
+.herohead {
+  font-size: 4.2rem;
+  padding: 3rem 0rem;
+  line-height: 5rem;
+
+  font-weight: 50;
+}
 .Heading {
   font-size: 3rem;
   color: #087f5b;
