@@ -1,0 +1,148 @@
+.description {
+  /* width: 100rem; */
+  margin: 0rem 6rem;
+  padding: 6rem 3rem;
+  font-size: 2rem;
+  font-family: serif;
+  line-height: 3.2rem;
+  /* letter-spacing: 0.04rem; */
+  /* word-spacing: 0.2rem; */
+
+  /* background-color: aqua; */
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 6rem;
+}
+
+.imagecontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.headerimage {
+  width: 180px;
+  aspect-ratio: 1;
+  overflow: hidden;
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+  margin: 0px -20px;
+  border: 3px solid rgba(0, 194, 255, 0.12);
+}
+
+.homecontent {
+  padding: 4rem 0rem;
+}
+.homeheading {
+  font-size: 4.2rem;
+  padding: 3rem 0rem;
+  line-height: 5rem;
+
+  font-weight: 50;
+}
+
+p {
+  font-size: 1.7rem;
+  text-align: justify;
+}
+
+.titile {
+  font-weight: 600;
+}
+
+.quote {
+  background: radial-gradient(
+    120% 120% at 30% 40%,
+    rgba(0, 194, 255, 0.24),
+    transparent 60%
+  );
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  text-align: center;
+}
+.quote h3 {
+  font-size: 2.3rem;
+  margin: 0.25rem 0 0.2rem;
+}
+.quote .hi {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.6;
+}
+
+.projectname {
+  font-size: 2.5rem;
+  color: #087f5b;
+  padding-bottom: 1rem;
+}
+
+.incubations {
+  max-width: 80%;
+}
+
+/* Projects carousel (your original one) */
+.projectswrapper {
+  overflow: hidden;
+  width: 100%;
+  margin-top: 0rem;
+}
+
+.projectstrack {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  animation: scroll-left 15s linear infinite;
+}
+
+.projectstrack:hover {
+  animation-play-state: paused; /* ✅ Pause on hover */
+}
+
+.projectcard {
+  width: 10%;
+  height: 5%;
+  flex: 0 0 auto;
+  min-width: 220px;
+  padding: 14px 18px;
+  /* background: var(--card); */
+  border-radius: 12px;
+  text-align: center;
+  font-weight: 600;
+  color: var(--text);
+  /* box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25); */
+}
+
+.partnerheader {
+  font-size: 4.2rem;
+  padding: 0rem 0rem;
+  line-height: 5rem;
+  text-align: center;
+}
+
+.partnerbody {
+  text-align: center;
+  padding: 0rem 13rem;
+}
+
+@keyframes scroll-left {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+@media screen and (max-width: 1024px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 6rem;
+  }
+}

@@ -1,0 +1,15 @@
+.container {
+  width: 100%;
+  padding: 20rem 3rem;
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial,
+    sans-serif, Helvetica;
+  background: #fff;
+  color: #212529;
+}
+
+.container h1 {
+  font-size: 2.5rem;
+  line-height: 1.1;
+  margin: 0 1rem;
+  font-weight: 100;
+}

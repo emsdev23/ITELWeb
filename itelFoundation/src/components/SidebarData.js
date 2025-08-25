@@ -43,7 +43,8 @@ export const SidebarData = [
   },
 
   {
-    title: "Tech Leadership Initiavites",
+    title: "Tech Leadership Initiatives",
+
     //path: "/reports",
     //icon: <MdPeopleAlt size="20px" />,
     iconClosed: <RiIcons.RiArrowDownSFill />,

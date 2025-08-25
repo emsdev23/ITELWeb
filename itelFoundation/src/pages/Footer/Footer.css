@@ -11,16 +11,49 @@
 .info {
   font-size: 1.5rem;
   font-weight: 800;
+  padding: 0.2rem;
+}
+
+.info a {
+  color: #282c34;
+}
+
+.info a:hover {
+  color: #007bff; /* Or any accent color */
+  text-decoration: underline;
 }
 .Address {
   font-size: 1.5rem;
   font-weight: 800;
+  /* padding: 1rem; */
 }
 
+.info-incubate {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 800;
+  padding: 2rem 0.2rem;
+  /* display: flex;
+  flex-direction: column;
+  padding-left: 20rem; */
+}
+
+.info-itel {
+  text-align: start;
+  font-size: 1.5rem;
+  font-weight: 800;
+  padding: 2rem 0.2rem;
+}
 .footer-contantent {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.footer-incubation {
+  display: flex;
+  justify-content: space-between;
+  gap: 5rem;
 }
 
 .rights {

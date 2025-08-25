@@ -27,13 +27,16 @@ import ScrollToTop from "./ScrollToTop ";
 import Navbar from "./Navbar ";
 import Careers from "./pages/Careers/Careers";
 import Footer from "./pages/Footer/Footer";
+
+import About from "./pages/AboutItel/About";
+import HomePage from "./pages/HomePage/HomePage";
 function App() {
   return (
     <Router>
       <Navbar />
       <ScrollToTop />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<HomePage />} />
         <Route path="/AboutUs" element={<AboutUs />} />
         <Route path="/incubatees" element={<Incubatees />} />
         <Route path="/Initiavites/Transportation" element={<Initiative1 />} />
@@ -57,6 +60,8 @@ function App() {
 
         <Route path="/Partnerships" element={<Partnership />} />
         <Route path="/careers" element={<Careers />} />
+
+        <Route path="/AboutItel" element={<HomePage />} />
       </Routes>
       <Footer />
     </Router>
