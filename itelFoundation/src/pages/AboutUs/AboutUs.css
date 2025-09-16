@@ -65,4 +65,16 @@ ul {
   ol {
     padding-left: 3.3rem;
   }
+
+  .Herosection {
+    width: 80%;
+  }
+
+  .herohead {
+    font-size: 2rem;
+    padding: 0rem 0rem;
+    line-height: 2.5rem;
+
+    font-weight: 50;
+  }
 }

@@ -1,127 +1,369 @@
 import React from "react";
 import "./Initiatives.css";
+import HashticVideo from "../../Images/video.mp4";
 function Initiative1() {
   return (
     <div>
       <div>
         <div className="description">
+          <div className="Herosection">
+            {/* <div className="herohead">
+              Is it possible to travel 20 kms in 20 mins in metropolitan cities
+              in India?
+              <br />
+            </div> */}
+
+            <div>
+              <p className="Heading">The Urban Commute Chaos:</p>
+            </div>
+          </div>
           {/* <p className="Heading">HASHTIC</p> */}
           <br />
-          <p className="subHeading">Urban Mobility</p>
+
           <div>
             <p>
-              {" "}
-              In the congested cities of India (like Bangalore, Mumbai, and
-              Chennai, among others), it currently takes over 2 hours of commute
-              every day from home to office and back. As more and more migration
-              take place from rural areas to these cities, the problem will only
-              get worse, with about 350 million vehicles expected in Indian
-              cities by 2050, as opposed to 101 million vehicles now.{" "}
+              People commuting for work in most large cities of India face
+              heavily congested roads. Even a 15 Km ride typically takes more
+              than an hour. This means commuting to work and back consumes two
+              to two and a half hours every day. For most people in the city
+              this has become an extremely tiring everyday reality.
             </p>
-            <p>Two Important questions we need to ask: </p>
-            <ol>
-              <li>
-                Is this the future of India, where many people spend such travel
-                time everyday just commuting?{" "}
-              </li>
-              <li>
-                What can be done to cut the current travel time of about 75
-                minutes for a 15 km journey to just 20 minutes?
-              </li>
-            </ol>
-            <br />
-            <div>
-              <p className="subHeading">The Solution</p>
-              <p>
-                At IIT Madras (IITM) Research Park, we have come out with a
-                solution termed “
-                <b>
-                  High-throughput Autonomous Sustainable Human & Goods Transport
-                  for India’s next century” (HASHTIC),
-                </b>{" "}
-                which could be the answer to these questions.{" "}
-              </p>
-              <p>
-                HASHTIC involves personalized PODS that provide a transport
-                which is:{" "}
-              </p>
-              <ul>
-                <li>Comfortable</li>
-                <li>Highly energy-efficient</li>
-                <li>Affordable </li>
-                <li>using only Green Electricity</li>
-                <li>built on existing city infrastructure</li>
-              </ul>
-              <p>
-                The autonomous PODS travel on a grid-like unidirectional rail
-                network, on existing roads, with two separate lines, say
-                North-South and East -West, at different heights, without any
-                crossings.{" "}
-              </p>
-            </div>
-            <br />
-            <div>
-              <p className="subHeading">Nation-wide Goods Transport </p>
-              <p>
-                As India moves towards a Thirty Trillion Dollar economy over the
-                next twenty-five years, India's consumption would increase
-                significantly. This would necessitate goods transport across the
-                length and breadth of India to increase by at least ten times.
-                Today, most goods are carried on trucks (Goods transport by
-                Indian Railways is only about 18% of the total), and it takes
-                four to five days when transported across India. It is believed
-                that CO2 emissions from freight transport are likely to increase
-                by 451% by 2050.
-              </p>
-              <ul>
-                <li>How will we scale up? </li>
-                <li>
-                  The goal will be to transport ten times the goods in less than
-                  24 hours. Will the long-distance trucks become electric?{" "}
-                </li>
-                <li>
-                  The battery required would be too large. Will they be driven
-                  by Green Hydrogen?{" "}
-                </li>
-                <li>The cost is likely to be very high. </li>
-                <li>
-                  At the same time, where will we build roads for such massive
-                  transport increase?
-                </li>
-                <li>
-                  Can the goods really be delivered across the country in 24
-                  hours if electric trucks are used?
-                </li>
-              </ul>
-            </div>
+            <p>
+              Our team of Scientists, experts on road transportation & unit
+              economics along with sustainability teams are working on a
+              solution using deep tech that will work for the demands of the
+              rapidly growing Indian economy.
+            </p>
+            <p>
+              The worst part is that nobody seems to have a solution. All
+              attempts made so far have only marginally improved the situation
+              temporarily, only to deteriorate back in a short time.
+            </p>
+            <p>
+              This seems like an impossible problem to solve, and that is
+              precisely why ITEL’s team took up this challenge. Our goal is
+              <b> simple and bold</b>.
+            </p>
 
             <br />
+
             <div>
-              <p className="subHeading">The Solution</p>
+              {/* <p className="Heading">Our goal: </p> */}
+              <p
+                style={{
+                  fontStyle: "italic",
+                  backgroundColor: "#ffffffff",
+                  borderLeft: "10px solid  #ffec99",
+                  borderBottom: "2px solid  #ffec99",
+                  padding: "2rem",
+                  borderRadius: "10px",
+                }}
+              >
+                “Make the 15 km commute possible in 20 minutes, from anywhere to
+                anywhere within the city. For a longer distance of 20 km, the
+                commute time should be 24 – 25 minutes, and so on”
+              </p>
+            </div>
+            <br />
+            <div>
+              <p className="Heading">The 20 Minute Commute Goal:</p>
+
               <p>
+                At ITEL, we understood that to address this challenge, what is
+                needed is not an alternate solution but alternate thinking.
+                Public infrastructure must be built to last, so the design
+                should be for a system for the next hundred years
+              </p>
+              <div>
                 {" "}
-                The HASHTIC concept discussed earlier could potentially be
-                enhanced to a HASHTIC-GOODS transport system. This would involve
-                autonomous Wagons instead of trucks, travelling at about 200
-                kmph on special rails. The rail network could be built at a
-                height on existing highways, driven by green electricity and
-                consuming a minimum amount of energy, as the wagons would be
-                cascaded to minimize aerodynamic resistance.
-              </p>
-
+                <p>Therefore, we set out to build a solution, that must</p>
+                <ul>
+                  <li>be absolutely green.</li>
+                  <li>be highly energy efficient</li>
+                  <li>be buildable in existing cities</li>
+                  <li>be able to handle peak traffic of today and tomorrow</li>
+                  <li>be comfortable</li>
+                  <li>be affordable</li>
+                </ul>
+                <p>
+                  <b>
+                    This was clearly an impossible challenge and exactly the
+                    kind ITEL was set up to solve .{" "}
+                  </b>
+                  Scientists from multiple institutes along with some start-ups
+                  come together as a consortium to find a solution for such
+                  impossible challenges.
+                </p>
+                <p>
+                  The process began with conceptual brainstorming. The team
+                  studied the cities closely, which led to the insight that most
+                  traffic seemed to flow on four or five major north-south and
+                  four to five major east-west roadsin the cities. This
+                  convergence of significant amount of traffic in a few roads
+                  led to congestion leading to long commute hours and making the
+                  roads impossible to travel.
+                </p>
+                <p>
+                  The study also led the team to realise that there are hundreds
+                  of smaller roads, streets and lanes in the cities, and the
+                  solution lies in leveraging them effectively.
+                </p>
+                <p>
+                  This realisation led to the birth of{" "}
+                  <b>
+                    HASHTIC - High-Throughput Autonomous Sustainable Human
+                    Transportation for India’s next Century.
+                  </b>
+                </p>
+              </div>
+            </div>
+            <br />
+            <div>
+              <p className="subHeading">What is HASHTIC? </p>
               <p>
-                The East-West and North-South lines will be at different heights
-                and would not cross each other to ensure no stoppage and no
-                congestion. The Network will be from a grid of 100 km×100 km
-                with stations at each cross-point, from where the goods will be
-                moved by electric trucks to their final destinations.
+                HASHTIC is a breakthrough urban transport system designed to cut
+                city commute times drastically.
               </p>
               <p>
-                This solution will be highly cost-effective, and its design,
-                development, and implementation would propel India to technology
-                Leadership.
+                When the team decided to utilise narrow streets and lanes
+                effectively, they realised that they had to come up with a
+                solution that is elevated and narrow for easy navigation.
+              </p>
+              <p>
+                This led to the concept of a solution that is both{" "}
+                <b>elevated and narrow</b>, built on these smaller streets. The
+                team designed <b>autonomous pods</b> just 0.8 meters wide,
+                perfectly sized to carry two people, sitting back to back.
+              </p>
+              <p>
+                Recognising that the intersections are the key cause for traffic
+                congestions in city roads, the team created a solution entirely
+                intersection-free by incorporating two levels of elevated
+                tracks, with one set of parallel lines running at about 8 meters
+                height from ground-level and another at about 11 meters. So,
+                with no real intersections, no traffic-lights, and therefore no
+                no stopping
+              </p>
+              <p>
+                The HASHTIC network would be a dense 700 x 700-meter grid,
+                mapping the entire city to provide efficient and accessible
+                transportation for commuters.
               </p>
             </div>
+
+            <br />
+            <div>
+              <p className="subHeading">How HASHTIC Works?</p>
+              <p>
+                HASHTIC combines autonomous pods, elevated tracks, and a
+                centralised AI-powered control system to deliver seamless city
+                commutes. The entire system is designed for speed, efficiency,
+                accessibility and ease of use.
+              </p>
+              <p>
+                To maximize the efficiency of this breakthrough solution, the
+                pods are designed to
+              </p>
+              <ul>
+                <li>
+                  run on 100% <b>green electricity</b>
+                </li>
+                <li>
+                  run on rails, since the friction losses with rails is
+                  one-tenth that of roads
+                </li>
+                <li>
+                  <b>platoon</b>, when they are moving in the same direction,
+                  thus reducing the aerodynamic resistance and also reducing the
+                  energy consumption per pod
+                </li>
+              </ul>
+              <p>
+                To avoid the signalling delays, congestion and risks created by
+                track switching, HASHTIC uses an innovative design that
+                incorporates a switching mechanism within the pods to
+                track-switch without delays, while the tracks themselves remain
+                passive.
+              </p>
+              <p>
+                The design also includes two stations at every virtual crossing
+                built into existing buildings of the grid allowing easy access
+                to the commuters, thereby basically solving the first- and
+                last-mile challenges of the traditional mass transit. With 8
+                stations in every 700 x 700 metre square, commuters have access
+                to stations within 300 to 400 meters of walking
+              </p>
+              <p>
+                Ride booking is facilitated through a mobile app that directs
+                commuters to one of the nearby station, where a pod will be
+                waiting to board. The pods move continuously to reach their
+                destination without any stops.
+              </p>
+              <p>
+                The AI-powered centralised control system that assigns routes to
+                every pod ensures that no route link exceeds 20% of its capacity
+                to avoid congestion in any link of the vast grid.
+              </p>
+              <p>
+                This allows the pods to move at an average speed of 80 kmph,
+                ensuring that a 15 km trip is completed in 20 minutes, and a 20
+                km trip in 24 minutes, 25 km trip in 27 minutes, and so on,
+                including the 3 or 4-minute walk to and from origin and
+                destination stations .
+              </p>
+              <p>
+                The most important target, of course, is to get the person
+                comfortably from home to office, so the pod is being designed
+                with air-conditioning for human comfort. Another important
+                target is affordability so HASHTIC system will be accessible for
+                everyone. In a preliminary cost estimate, HASHTIC rides will
+                cost about the price of riding a two-wheeler.
+              </p>
+            </div>
+            <br />
+            <div>
+              <p className="subHeading">
+                From Prototype to Trial – HASHTIC’s Journey So Far:
+              </p>
+              <p>
+                The team carried out extensive simulations, which confirmed
+                feasibility. Early cost estimates also indicate that HASHTIC can
+                be built on low cost, making it feasible for large scale
+                adoption.
+              </p>
+              <p>
+                As the first step, the team built a small-scale prototype, which
+                includes autonomous pods and two levels of tracks allowing the
+                pod to turn without traditional track switching. This prototype
+                was installed at the IIT Madras Research Park, where multiple
+                versions of prototype pods were tested to validate the concept.
+              </p>
+              <p>
+                As the next step, the full-scale pod design has begun and an
+                expanded consortium of experts has been formed with 50 to 60
+                engineers from ITEL, CEET IIT Madras, IIT Tirupati, IIT
+                Hyderabad and Centre of Excellence Trivandrum. In addition, we
+                have also collaborated with leading industry players like L&T
+                and Bharat Forge. Detailed design and costing are currently in
+                progress.
+              </p>
+              <p>
+                Ground-level full-pod testing is expected to commence this year
+                (2025). ITEL has entered into a partnership with Sri City, a
+                special economic zone located near Chennai for full-scale pilot
+                trials.
+              </p>
+              <p>
+                During trials, the team will simulate all possible scenarios to
+                test the durability, speed and safety to ensure long-lasting and
+                reliable service.
+              </p>
+            </div>
+            <br />
+            <div>
+              <p className="subHeading">The Road Ahead:</p>
+              <p>
+                While the team has achieved significant milestones so far, the
+                next steps will focus on testing the safety and reliability of
+                the system on full scale to ensure smooth integration into
+                existing cities.
+              </p>
+              <p>
+                For HASHTIC to succeed, the solution must not only deliver on
+                time and cost but also be easily embraced by citizens as a
+                transport option that makes a clear and positive difference in
+                their lives.
+              </p>
+              <p>
+                Once HASHTIC pilot runs succeed, this system will be deployed
+                with assistance from build-and-operate partners across the
+                nation.
+              </p>
+            </div>
+            <br />
+            <div>
+              {/* <h2>Local Video</h2> */}
+              <video width="100%" controls>
+                <source src={HashticVideo} type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            </div>
+            <br />
+            <div>
+              <p className="subHeading">Partner Institutions </p>
+              <p>
+                <b>Details of partner institutions for solving the problem</b>
+              </p>
+              <p>
+                ITEL brings together a consortium of institutions who work
+                alongside the ITEL team to enable a solution for complex
+                challenges and deliver long-lasting solutions using Deep Tech.
+              </p>
+              <p>
+                <b>The partner institutions for HASHTIC are:</b>
+              </p>
+              <p className="subHeading">Academic Partners:​ </p>
+              <ul>
+                <li>
+                  <b>IIT Hyderabad​ </b>
+                </li>
+                <li>
+                  <b>IIT Madras​ </b>
+                </li>
+                <li>
+                  <b>IIT Tirupati​ ​​ </b>
+                </li>
+                <li>
+                  <b>CoE Trivandrum</b>
+                </li>
+                <li>
+                  <b>Uptycs​ </b>
+                </li>
+              </ul>
+
+              <p className="subHeading">Industry Partners:​ </p>
+              <ul>
+                <li>
+                  <b>L&T Construction Division​ ​ </b>
+                </li>
+                <li>
+                  <b>L&T Railway Division​ ​ </b>
+                </li>
+                <li>
+                  <b>​Triox Mobility​  ​​ </b>
+                </li>
+              </ul>
+              <br />
+              <p style={{ fontStyle: "italic" }}>
+                We invite institutions to become a part of our consortia, where
+                together we create scalable and sustainable solutions for the
+                toughest and most impossible challenges, thus making India a
+                Global Tech leader!
+              </p>
+            </div>
+            <br />
+            <div>
+              <p className="subHeading">
+                Sounds exciting? We welcome you to partner our journey!
+              </p>
+              <p>
+                If you are a scientist, technologist or an innovator, who
+                believes in changing the world, then do partner us in our
+                journey.
+              </p>
+              <p>
+                We invite you to become a part of our consortia and let us
+                together think and create scalable and sustainable solutions for
+                the most complex, toughest and impossible challenges and make
+                our country a leader!
+              </p>
+              <br />
+              <p style={{ textAlign: "center" }}>
+                Write to us at{" "}
+                <span style={{ color: "blue" }}>connect@itelfoundation.in</span>
+              </p>
+            </div>
+            <br />
           </div>
         </div>
       </div>

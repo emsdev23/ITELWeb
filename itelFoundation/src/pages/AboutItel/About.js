@@ -19,7 +19,7 @@ export default About;
 // import "./AboutUs.css";
 // import { NavLink } from "react-router-dom";
 // import { FaArrowUpRightFromSquare } from "react-icons/fa6";
-// import { FaArrowRight } from "react-icons/fa";
+// import { FaArrowRight } from "react-icyons/fa";
 
 // function AboutUs() {
 //   return (
