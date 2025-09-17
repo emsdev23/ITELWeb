@@ -316,9 +316,6 @@ function Initiative1() {
                 <li>
                   <b>CoE Trivandrum</b>
                 </li>
-                <li>
-                  <b>Uptycs​ </b>
-                </li>
               </ul>
 
               <p className="subHeading">Industry Partners:​ </p>
@@ -331,6 +328,9 @@ function Initiative1() {
                 </li>
                 <li>
                   <b>​Triox Mobility​  ​​ </b>
+                </li>
+                <li>
+                  <b>Uptycs​ </b>
                 </li>
               </ul>
               <br />

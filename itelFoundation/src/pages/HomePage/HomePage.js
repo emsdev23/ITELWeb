@@ -28,12 +28,19 @@ import { FaArrowUpRightFromSquare } from "react-icons/fa6";
 import { FaArrowRight } from "react-icons/fa";
 import { Link, NavLink } from "react-router-dom";
 
+import ITELLogo from "../../Images/ITEL-Logo.jpg";
+
 import { header } from "framer-motion/client";
 import { color } from "framer-motion";
 function HomePage() {
   return (
     <div className={styles.homepage}>
       <div className={styles.description}>
+        {/* <div className={styles.logosection}>
+          <img src={ITELLogo} class={styles.itelLogo} />
+          <p>Immersive Technology and Entrepreneurship Labs</p>
+        </div> */}
+        {/* <img src={ITELLogo} style={{ width: "50%" }} /> */}
         <div className={styles.container}>
           <div>
             <div className={styles.imagecontainer}>
@@ -61,10 +68,13 @@ function HomePage() {
               <b>Towards India acquiring Technology Leadership </b> India with
               the largest population and high population-density cannot afford
               to just import technology. India needs to be a technology leader
-              in at least some areas. Immersive Technology and Entrepreneurship
-              Labs (ITEL), a non-profit company, is created with this aim, to
-              make India a technology leader in the world, in select areas over
-              the next few years. The question is how do we achieve this?
+              in at least some areas.
+            </p>
+            <p>
+              <b>Immersive Technology and Entrepreneurship Labs (ITEL)</b>, a
+              non-profit company, is created with this aim, to make India a
+              technology leader in the world, in select areas over the next few
+              years. The question is how do we achieve this?
             </p>
             <p>
               The best way to use technology to solve our own challenges. High
@@ -74,7 +84,7 @@ function HomePage() {
               “seemingly - impossible” problems and use technology and
               innovation to come up with solutions. By successfully deploying
               these at scale in our country and extending them to other nations
-              with similar challenges, India can acquire technology leadershi
+              with similar challenges, India can acquire technology leadership.
             </p>
             <p>
               India is historically known to have always solved its problems,
@@ -267,7 +277,10 @@ function HomePage() {
                   additions of drains to cater to increasing rainfall. With our
                   unique innovative approach, we aim to eliminate urban
                   waterlogging.&nbsp;
-                  <NavLink to="" className="navlink">
+                  <NavLink
+                    to="./Initiavites/FloodMitigation"
+                    className="navlink"
+                  >
                     <p style={{ color: "#0c8599" }}>Know More... </p>
                     <sup>
                       <FaArrowUpRightFromSquare
@@ -304,7 +317,10 @@ function HomePage() {
                   of products and solutions, such that this green solution is
                   not just energy-efficient, but also no more expensive than the
                   fossil-fuel driven products currently being used. &nbsp;
-                  <NavLink to="" className="navlink">
+                  <NavLink
+                    to="./Initiavites/Heating&Cooling"
+                    className="navlink"
+                  >
                     <p style={{ color: "#0c8599" }}>Know More... </p>
                     <sup>
                       <FaArrowUpRightFromSquare
@@ -463,9 +479,19 @@ function HomePage() {
             </p>
             <p className={styles.partnerbody}>
               Write to us at{" "}
-              <span style={{ color: "blue", cursor: "pointer" }}>
+              <a
+                href="mailto:connect@itelfoundation.in"
+                style={{
+                  color: "blue",
+                  cursor: "pointer",
+                  textDecoration: "none",
+                }}
+              >
                 connect@itelfoundation.in
-              </span>
+              </a>
+              {/* <span style={{ color: "blue", cursor: "pointer" }}>
+                connect@itelfoundation.in
+              </span> */}
             </p>
           </div>
         </div>

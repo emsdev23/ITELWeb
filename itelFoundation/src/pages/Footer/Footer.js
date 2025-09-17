@@ -13,9 +13,17 @@ function Footer() {
             <img src={ITEL_Logo} className="logo" />
             <p className="info">For Further Information</p>
             <div className="info">
-              {" "}
-              <IoMdMailOpen />
-              connect@itelfoundation.in,
+              <a
+                href="mailto:connect@itelfoundation.in"
+                style={{
+                  color: "blue",
+                  cursor: "pointer",
+                  textDecoration: "none",
+                }}
+              >
+                <IoMdMailOpen />
+                connect@itelfoundation.in,
+              </a>{" "}
             </div>
             <div className="info">
               {" "}
