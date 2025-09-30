@@ -10,7 +10,7 @@ function AboutUs() {
       <div className="description">
         <div className="content">
           {/* <h1>Home</h1> */}
-          <div className="Herosection">
+          <div>
             <div className="herohead">
               From labs to life-changing impact, we build solutions for India’s
               toughest problems!
@@ -73,7 +73,7 @@ function AboutUs() {
             <p className="Heading">What we do : </p>
             <p>
               ITEL’s two impact pillars of operations are “Technology
-              Initiatives” and “Nurturing Start-ups”. These complimentary yet
+              Initiatives” and “Nurturing Start-ups”.These complimentary yet
               powerful pillars enable ITEL’s purpose of building India as a
               technology leader within the next decade by delivering
               breakthrough solutions for impossible challenges and building a

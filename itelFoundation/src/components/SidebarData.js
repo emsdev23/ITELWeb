@@ -53,45 +53,47 @@ export const SidebarData = [
     subNav: [
       {
         title: "Transportation",
-        path: "/Initiavites/Transportation",
+        path: "/Initiatives/Transportation",
         //icon: <SiTransportforlondon size="20px" />,
         cName: "sub-nav",
       },
       {
+        title: "Flood Mitigation",
+        path: "/Initiatives/FloodMitigation",
+        //icon: <FaHouseFloodWaterCircleArrowRight size="20px" />,
+      },
+      {
         title: "Heating & Cooling",
-        path: "/Initiavites/Heating&Cooling",
+        path: "/Initiatives/Heating&Cooling",
         // icon: <LuThermometerSnowflake size="20px" />,
         cName: "sub-nav",
       },
       {
-        title: "Fintech for Inclusion",
-        path: "/Initiavites/FintechforInclusion",
-        //icon: <TbZoomMoney size="20px" />,
-      },
-      {
-        title: "Flood Mitigation",
-        path: "/Initiavites/FloodMitigation",
-        //icon: <FaHouseFloodWaterCircleArrowRight size="20px" />,
-      },
-      {
-        title: "Clean Energy",
-        path: "/Initiavites/CleanEnergy",
-        //icon: <GiEnergyBreath size="20px" />,
-      },
-      {
         title: "Assistive Technology",
-        path: "/Initiavites/AssistiveTechnology",
+        path: "/Initiatives/AssistiveTechnology",
         //icon: <GrTechnology size="20px" />,
       },
       {
-        title: "RISC V",
-        path: "/Initiavites/RISCV",
-        //icon: <IoIcons.IoIosPaper />,
+        title: "Cyber Security",
+        path: "/Initiatives/CyberSecurity",
+        //icon: <MdOutlineSecurity size="20px" />,
       },
       {
-        title: "Cyber Security",
-        path: "/Initiavites/CyberSecurity",
-        //icon: <MdOutlineSecurity size="20px" />,
+        title: "Fintech for Inclusion",
+        path: "/Initiatives/FintechforInclusion",
+        //icon: <TbZoomMoney size="20px" />,
+      },
+
+      {
+        title: "Clean Energy",
+        path: "/Initiatives/CleanEnergy",
+        //icon: <GiEnergyBreath size="20px" />,
+      },
+
+      {
+        title: "RISC V",
+        path: "/Initiatives/RISCV",
+        //icon: <IoIcons.IoIosPaper />,
       },
     ],
   },
@@ -127,9 +129,9 @@ export const SidebarData = [
     path: "/Partnerships",
     //icon: <AiOutlineApartment size="20px" />,
   },
-  {
-    title: "careers",
-    path: "/careers",
-    //icon: <AiOutlineApartment size="20px" />,
-  },
+  // {
+  //   title: "careers",
+  //   path: "/careers",
+  //   //icon: <AiOutlineApartment size="20px" />,
+  // },
 ];

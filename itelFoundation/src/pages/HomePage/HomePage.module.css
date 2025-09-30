@@ -33,7 +33,7 @@
 }
 
 .itelLogo {
-  width: 150px;
+  width: 100px;
   height: 100px;
 }
 .container {
@@ -65,7 +65,7 @@
 }
 .homeheading {
   font-size: 4.2rem;
-  padding: 3rem 0rem;
+  padding: 1rem 0rem;
   line-height: 5rem;
 
   font-weight: 50;
@@ -81,11 +81,7 @@ p {
 }
 
 .quote {
-  background: radial-gradient(
-    120% 120% at 30% 40%,
-    rgba(0, 194, 255, 0.24),
-    transparent 60%
-  );
+  background: radial-gradient(120% 120% at 30% 40%, #b7f5c3, transparent 60%);
   border-top: 1px solid rgba(255, 255, 255, 0.06);
   border-bottom: 1px solid rgba(255, 255, 255, 0.06);
   text-align: center;

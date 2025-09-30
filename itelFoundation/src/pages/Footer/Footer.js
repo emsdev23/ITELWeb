@@ -4,6 +4,8 @@ import ITEL_Logo from "../../Images/ITEL_Logo.png";
 import { IoMdMailOpen } from "react-icons/io";
 import { FaPhoneAlt } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
+import { FaLinkedin } from "react-icons/fa";
+
 function Footer() {
   return (
     <div>
@@ -25,10 +27,27 @@ function Footer() {
                 connect@itelfoundation.in,
               </a>{" "}
             </div>
+
             <div className="info">
               {" "}
               <FaPhoneAlt />
               +91 44 66469815
+            </div>
+
+            <div className="info">
+              <a
+                href="https://www.linkedin.com/company/itel-foundation/posts/?feedView=all"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{
+                  color: "blue",
+                  cursor: "pointer",
+                  textDecoration: "none",
+                }}
+              >
+                <FaLinkedin />
+                Follow us @ LinkedIn
+              </a>
             </div>
           </div>
           {/* <div className="Address">

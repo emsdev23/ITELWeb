@@ -27,33 +27,35 @@ import ScrollToTop from "./ScrollToTop ";
 import Navbar from "./Navbar ";
 import Careers from "./pages/Careers/Careers";
 import Footer from "./pages/Footer/Footer";
-
+import PartnerWithUs from "./pages/PartnerWithUs";
 import About from "./pages/AboutItel/About";
 import HomePage from "./pages/HomePage/HomePage";
+import RouteTitle from "./components/RouteTitle";
 function App() {
   return (
     <Router>
       <Navbar />
       <ScrollToTop />
+      <RouteTitle />
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/AboutUs" element={<AboutUs />} />
         <Route path="/incubatees" element={<Incubatees />} />
-        <Route path="/Initiavites/Transportation" element={<Initiative1 />} />
-        <Route path="/Initiavites/Heating&Cooling" element={<Initiative2 />} />
+        <Route path="/Initiatives/Transportation" element={<Initiative1 />} />
+        <Route path="/Initiatives/Heating&Cooling" element={<Initiative2 />} />
 
         <Route
-          path="/Initiavites/FintechforInclusion"
+          path="/Initiatives/FintechforInclusion"
           element={<Initiative3 />}
         />
-        <Route path="/Initiavites/FloodMitigation" element={<Initiative4 />} />
-        <Route path="/Initiavites/CleanEnergy" element={<Initiative5 />} />
+        <Route path="/Initiatives/FloodMitigation" element={<Initiative4 />} />
+        <Route path="/Initiatives/CleanEnergy" element={<Initiative5 />} />
         <Route
-          path="/Initiavites/AssistiveTechnology"
+          path="/Initiatives/AssistiveTechnology"
           element={<Initiative6 />}
         />
-        <Route path="/Initiavites/RISCV" element={<Initiative7 />} />
-        <Route path="/Initiavites/CyberSecurity" element={<Initiative8 />} />
+        <Route path="/Initiatives/RISCV" element={<Initiative7 />} />
+        <Route path="/Initiatives/CyberSecurity" element={<Initiative8 />} />
         <Route path="/AdvisoryCommitteeMembers" element={<AdvisorBoard />} />
         <Route path="/ITELIncubationCommittee" element={<IncubationItel />} />
         <Route path="/TechnicalAdvisoryCommittee" element={<TechAdvisor />} />
@@ -63,6 +65,7 @@ function App() {
 
         <Route path="/AboutItel" element={<HomePage />} />
       </Routes>
+      <PartnerWithUs />
       <Footer />
     </Router>
   );

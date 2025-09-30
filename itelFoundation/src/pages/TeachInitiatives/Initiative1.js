@@ -341,29 +341,6 @@ function Initiative1() {
                 Global Tech leader!
               </p>
             </div>
-            <br />
-            <div>
-              <p className="subHeading">
-                Sounds exciting? We welcome you to partner our journey!
-              </p>
-              <p>
-                If you are a scientist, technologist or an innovator, who
-                believes in changing the world, then do partner us in our
-                journey.
-              </p>
-              <p>
-                We invite you to become a part of our consortia and let us
-                together think and create scalable and sustainable solutions for
-                the most complex, toughest and impossible challenges and make
-                our country a leader!
-              </p>
-              <br />
-              <p style={{ textAlign: "center" }}>
-                Write to us at{" "}
-                <span style={{ color: "blue" }}>connect@itelfoundation.in</span>
-              </p>
-            </div>
-            <br />
           </div>
         </div>
       </div>

@@ -36,10 +36,10 @@ function HomePage() {
   return (
     <div className={styles.homepage}>
       <div className={styles.description}>
-        {/* <div className={styles.logosection}>
+        <div className={styles.logosection}>
           <img src={ITELLogo} class={styles.itelLogo} />
           <p>Immersive Technology and Entrepreneurship Labs</p>
-        </div> */}
+        </div>
         {/* <img src={ITELLogo} style={{ width: "50%" }} /> */}
         <div className={styles.container}>
           <div>
@@ -234,7 +234,7 @@ function HomePage() {
                   institutions, start-ups and established industry to achieve
                   this impossible goal.. &nbsp;
                   <NavLink
-                    to="./Initiavites/Transportation"
+                    to="./Initiatives/Transportation"
                     className="navlink"
                   >
                     <p style={{ color: "#0c8599" }}>Know More... </p>
@@ -247,7 +247,7 @@ function HomePage() {
                   </NavLink>
                 </p>
               </div>
-              <br />
+              {/* <br /> */}
               <div className={styles.projectname}>
                 Urban Water Logging Mitigation
               </div>
@@ -278,7 +278,7 @@ function HomePage() {
                   unique innovative approach, we aim to eliminate urban
                   waterlogging.&nbsp;
                   <NavLink
-                    to="./Initiavites/FloodMitigation"
+                    to="./Initiatives/FloodMitigation"
                     className="navlink"
                   >
                     <p style={{ color: "#0c8599" }}>Know More... </p>
@@ -291,7 +291,7 @@ function HomePage() {
                   </NavLink>
                 </p>
               </div>
-              <br />
+              {/* <br /> */}
               <div className={styles.projectname}>
                 Heating & Cooling Solutions
               </div>
@@ -318,7 +318,7 @@ function HomePage() {
                   not just energy-efficient, but also no more expensive than the
                   fossil-fuel driven products currently being used. &nbsp;
                   <NavLink
-                    to="./Initiavites/Heating&Cooling"
+                    to="./Initiatives/Heating&Cooling"
                     className="navlink"
                   >
                     <p style={{ color: "#0c8599" }}>Know More... </p>
@@ -332,7 +332,7 @@ function HomePage() {
                 </p>
               </div>
 
-              <br />
+              {/* <br /> */}
               {/* <div className={styles.projectname}>Cybersecurity</div>
               <h1>Securing India’s Digital Destiny</h1>
               <div>
@@ -454,45 +454,6 @@ function HomePage() {
               </Link>
               {/* Second set of logos (duplicate for smooth loop) */}
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* panel 6 parterner with us */}
-      <section className={styles.description}>
-        <div className={styles.partner}>
-          <div>
-            <div className={styles.partnerheader}>
-              We welcome you to partner our journey!
-            </div>
-            <p className={styles.partnerbody}>
-              If you are a scientist, technologist, or an innovator, who
-              believes in changing the world, then connect with us. If you are
-              an investor or a passionate individual in any field, who wishes to
-              see India take technology leadership, connect with us.
-            </p>
-            <p className={styles.partnerbody}>
-              We invite you to become a part of our consortia and let us
-              together think and create scalable and sustainable solutions for
-              the most complex, toughest and impossible challenges and make our
-              country a technology leader!
-            </p>
-            <p className={styles.partnerbody}>
-              Write to us at{" "}
-              <a
-                href="mailto:connect@itelfoundation.in"
-                style={{
-                  color: "blue",
-                  cursor: "pointer",
-                  textDecoration: "none",
-                }}
-              >
-                connect@itelfoundation.in
-              </a>
-              {/* <span style={{ color: "blue", cursor: "pointer" }}>
-                connect@itelfoundation.in
-              </span> */}
-            </p>
           </div>
         </div>
       </section>
