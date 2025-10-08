@@ -333,32 +333,53 @@ function HomePage() {
               </div>
 
               {/* <br /> */}
-              {/* <div className={styles.projectname}>Cybersecurity</div>
-              <h1>Securing India’s Digital Destiny</h1>
+              <div className={styles.projectname}>Cybersecurity</div>
+
               <div>
                 <p>
-                  Data is today’s power and as every digital step leaves a
-                  digital footprint, cybersecurity has become the unseen armour
-                  of modern civilization and encryption has become a silent
-                  guardian of daily digital life protecting everything from
-                  personal messages to national infrastructure. With
-                  cyber-attacks being real, recurring, and increasingly
-                  sophisticated. India as the rising digital giant needs to
-                  brace itself from the cyberthreats. To secure India from cyber
-                  threats, we cannot rely on external solutions but need to
-                  develop our own cybersecurity products – made in India
-                  deployed globally.
+                  Cybersecurity is an area where India must be self-reliant and
+                  not depend on any other country. With the largest population
+                  in the world, India is rapidly transforming into a digital
+                  nation through its accelerated adoption of digital
+                  technologies and online services such as Aadhaar, UPI, IoT and
+                  AI. This has led to increasing cyberthreats of varied nature,
+                  scale and complexity. Today, India relies heavily on solutions
+                  created outside India — leaving serious gaps that adversaries
+                  can exploit.
                 </p>
                 <p>
-                  In recognition of this critical moment, an initiative named
-                  ‘Indian Cybersecurity Academic Network (ICAN)’ originated.
-                  ICAN represents a groundbreaking collaboration of academics
-                  from India’s prestigious institutions including IITs, IISc,
-                  and IIITs. The core mission of ICAN is to build a
-                  collaborative, research-driven ecosystem in partnership with
-                  Industry that strengthens India’s position in cybersecurity
-                  and encryption technology. &nbsp;
-                  <NavLink to="" className="navlink">
+                  To address this, ITEL is working towards building an
+                  indigenous cybersecurity ecosystem by bringing together
+                  academia, industry, experts, institutions, and governments to
+                  create an all-encompassing approach that improves
+                  capabilities, reduces vulnerabilities, and strengthens India’s
+                  cybersecurity infrastructure.
+                </p>
+                <p>
+                  At the core of this vision is the{" "}
+                  <b>Indian Cybersecurity Academic Network (ICAN) </b>– a forum
+                  that consists of scientists, researchers, and experts at
+                  leading academic institutions. ICAN works on bringing together
+                  industry and government to fortify India’s cybersecurity
+                  infrastructure
+                </p>
+                <p>
+                  Through ICAN, we are building an ecosystem focused on three
+                  key areas - <b>Faculty Training Program</b>, where faculty
+                  from tier-2 engineering colleges are trained to inspire and
+                  nurture the next generation of cybersecurity professionals,
+                  <b>Industry-Academia Collaboration </b> to identify real-world
+                  challenges and develop Indian-designed solutions, and
+                  <b> Government Partnerships,</b> for policy reforms,
+                  customised training programs, and guiding start-ups to design
+                  innovative security frameworks.
+                </p>
+                <p>
+                  Our goal is to expand India’s talent pool, strengthen
+                  research, nurture innovation, support SMEs, and shape policy
+                  reforms. Through ICAN, we are laying the foundation for a
+                  secure and resilient digital future for our nation. &nbsp;
+                  <NavLink to="/Initiatives/CyberSecurity" className="navlink">
                     <p style={{ color: "#0c8599" }}>Know More... </p>
                     <sup>
                       <FaArrowUpRightFromSquare
@@ -368,7 +389,62 @@ function HomePage() {
                     </sup>
                   </NavLink>
                 </p>
-              </div> */}
+              </div>
+
+              <div className={styles.projectname}>Assistive Technologies</div>
+
+              <div>
+                <p>
+                  India, being the most populated country in the world, has a
+                  large number of people living with disabilities across all age
+                  groups. This often leaves them behind in many ways.
+                  Thankfully, we live in a time, when technology is steadily
+                  evolving to support both the disabled and the ageing
+                  population.
+                </p>
+                <p>
+                  To address this, ITEL is working towards building an
+                  indigenous cybersecurity ecosystem by bringing together
+                  academia, industry, experts, institutions, and governments to
+                  create an all-encompassing approach that improves
+                  capabilities, reduces vulnerabilities, and strengthens India’s
+                  cybersecurity infrastructure.
+                </p>
+                <p>
+                  However, most of these technological advancements have taken
+                  place in developed countries, where affordability is less of
+                  an issue. The real challenge lies in making these solutions
+                  both <b>available and affordable in India</b>.
+                </p>
+                <p>
+                  <b>ITEL</b> is working to address this challenge by connecting
+                  engineers with researchers and start-ups, to create solutions
+                  that are both affordable and accessible.
+                </p>
+                <p>
+                  ITEL is currently working towards enabling inclusion in
+                  multiple dimensions – such as Visual Impairment, Hearing
+                  Impairment, Mobility Impairment, Learning Disability, and an
+                  AI powered Avatar to support for individuals with Autism
+                </p>
+                <p>
+                  ITEL is also committed to creating many more affordable and
+                  high-quality assistive technologies to improve daily living
+                  and ensure dignity and independence for those in need. &nbsp;
+                  <NavLink
+                    to="/Initiatives/AssistiveTechnology"
+                    className="navlink"
+                  >
+                    <p style={{ color: "#0c8599" }}>Know More... </p>
+                    <sup>
+                      <FaArrowUpRightFromSquare
+                        size="8px"
+                        style={{ marginLeft: "-0.8rem", marginTop: "-0.5rem" }}
+                      />
+                    </sup>
+                  </NavLink>
+                </p>
+              </div>
             </div>
           </div>
         </div>

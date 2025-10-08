@@ -58,8 +58,8 @@ export const SidebarData = [
         cName: "sub-nav",
       },
       {
-        title: "Flood Mitigation",
-        path: "/Initiatives/FloodMitigation",
+        title: "Urban Waterlogging Mitigation Forum",
+        path: "/Initiatives/UrbanWaterloggingMitigationForum",
         //icon: <FaHouseFloodWaterCircleArrowRight size="20px" />,
       },
       {

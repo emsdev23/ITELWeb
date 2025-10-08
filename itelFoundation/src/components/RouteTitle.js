@@ -21,8 +21,8 @@ const RouteTitle = () => {
       case "/Initiatives/Heating&Cooling":
         document.title = "ITEL's Heating & Cooling Solutions";
         break;
-      case "/Initiatives/FloodMitigation":
-        document.title = "UrbanWaterlogging Mitigation Forum by ITEL";
+      case "/Initiatives/UrbanWaterloggingMitigationForum":
+        document.title = "Urban Waterlogging Mitigation Forum by ITEL";
         break;
       case "/Initiatives/AssistiveTechnology":
         document.title = "Assistive Technologies by ITEL";

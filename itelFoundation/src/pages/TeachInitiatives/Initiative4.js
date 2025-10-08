@@ -5,7 +5,7 @@ function Initiative4() {
   return (
     <div>
       <div className="description">
-        <p className="Heading">Flood Mitigation</p>
+        <p className="Heading">Urban Waterlogging Mitigation Forum</p>
         <p>
           Increasing GHG emissions are accelerating changes in weather patterns,
           causing erratic and more frequent rainfall. This affects almost all

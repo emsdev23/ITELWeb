@@ -142,9 +142,7 @@ function Initiative6() {
         </div>
         <br />
         <div>
-          <p>
-            <b>Mobility Impairment & Rehabilitation</b>
-          </p>
+          <p className="subHeading">Mobility Impairment & Rehabilitation</p>
           <p>
             Mobility impairments can arise from various causes such as cerebral
             palsy, stroke, spinal cord injuries, road traffic accidents,

@@ -6,6 +6,7 @@ import { Reports, ReportsOne, ReportsTwo, ReportsThree } from "./pages/Reports";
 import Team from "./pages/Team";
 import Home from "./pages/Home/Home";
 import Incubatees from "./pages/Incubatees/Incubatees";
+import IncubatessPage from "./pages/Incubatees/IncubatessPage";
 import AboutUs from "./pages/AboutUs/AboutUs";
 import Initiative1 from "./pages/TeachInitiatives/Initiative1";
 import Initiative2 from "./pages/TeachInitiatives/Initiative2";
@@ -40,7 +41,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/AboutUs" element={<AboutUs />} />
-        <Route path="/incubatees" element={<Incubatees />} />
+        <Route path="/incubatees" element={<IncubatessPage />} />
         <Route path="/Initiatives/Transportation" element={<Initiative1 />} />
         <Route path="/Initiatives/Heating&Cooling" element={<Initiative2 />} />
 
@@ -48,7 +49,10 @@ function App() {
           path="/Initiatives/FintechforInclusion"
           element={<Initiative3 />}
         />
-        <Route path="/Initiatives/FloodMitigation" element={<Initiative4 />} />
+        <Route
+          path="/Initiatives/UrbanWaterloggingMitigationForum"
+          element={<Initiative4 />}
+        />
         <Route path="/Initiatives/CleanEnergy" element={<Initiative5 />} />
         <Route
           path="/Initiatives/AssistiveTechnology"
