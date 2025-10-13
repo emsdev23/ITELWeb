@@ -98,31 +98,37 @@ export const SidebarData = [
     ],
   },
 
+  // {
+  //   title: " Committee Members",
+  //   //path: "/messages",
+  //   //icon: <MdGroups size="25px" />,
+
+  //   iconClosed: <RiIcons.RiArrowDownSFill />,
+  //   iconOpened: <RiIcons.RiArrowUpSFill />,
+
+  //   subNav: [
+  //     {
+  //       title: " Advisory Board Committee",
+  //       path: "/AdvisoryCommitteeMembers",
+  //       //icon: <FaPeopleGroup size="20px" />,
+  //     },
+  //     {
+  //       title: "Technical Advisory Committee",
+  //       path: "/TechnicalAdvisoryCommittee",
+  //       //icon: <FaPeopleGroup size="20px" />,
+  //     },
+  //     {
+  //       title: "ITEL Incubation Committee",
+  //       path: "/ITELIncubationCommittee",
+  //       //icon: <FaPeopleGroup size="20px" />,
+  //     },
+  //   ],
+  // },
+
   {
-    title: " Committee Members",
-    //path: "/messages",
-    //icon: <MdGroups size="25px" />,
-
-    iconClosed: <RiIcons.RiArrowDownSFill />,
-    iconOpened: <RiIcons.RiArrowUpSFill />,
-
-    subNav: [
-      {
-        title: " Advisory Board Committee",
-        path: "/AdvisoryCommitteeMembers",
-        //icon: <FaPeopleGroup size="20px" />,
-      },
-      {
-        title: "Technical Advisory Committee",
-        path: "/TechnicalAdvisoryCommittee",
-        //icon: <FaPeopleGroup size="20px" />,
-      },
-      {
-        title: "ITEL Incubation Committee",
-        path: "/ITELIncubationCommittee",
-        //icon: <FaPeopleGroup size="20px" />,
-      },
-    ],
+    title: "Advisory Board Members",
+    path: "/AdvisoryBoard ",
+    //icon: <AiOutlineApartment size="20px" />,
   },
   {
     title: "Partnerships",

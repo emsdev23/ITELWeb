@@ -32,6 +32,7 @@ import PartnerWithUs from "./pages/PartnerWithUs";
 import About from "./pages/AboutItel/About";
 import HomePage from "./pages/HomePage/HomePage";
 import RouteTitle from "./components/RouteTitle";
+import CommiteeMembers from "./pages/CommiteeMembers/CommiteeMembers";
 function App() {
   return (
     <Router>
@@ -63,6 +64,7 @@ function App() {
         <Route path="/AdvisoryCommitteeMembers" element={<AdvisorBoard />} />
         <Route path="/ITELIncubationCommittee" element={<IncubationItel />} />
         <Route path="/TechnicalAdvisoryCommittee" element={<TechAdvisor />} />
+        <Route path="/AdvisoryBoard" element={<CommiteeMembers />} />
 
         <Route path="/Partnerships" element={<Partnership />} />
         <Route path="/careers" element={<Careers />} />

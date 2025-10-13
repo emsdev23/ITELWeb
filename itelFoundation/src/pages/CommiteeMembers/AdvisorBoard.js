@@ -1,5 +1,5 @@
 import React from "react";
-
+import CommiteeMembers from "../CommiteeMembers/CommiteeMembers";
 function AdvisorBoard() {
   return (
     <div className="description" style={{ fontFamily: "sarif" }}>
@@ -107,6 +107,8 @@ function AdvisorBoard() {
           </tr>
         </tbody>
       </table>
+
+      <CommiteeMembers />
     </div>
   );
 }

@@ -108,7 +108,17 @@ function IncubatessPage() {
         <p>
           If you are a deep-tech start-up working in addressing a large-scale
           complex challenge, then we welcome you to be a part of ITEL’s
-          incubation program. To apply write to us at connect@itelfoundation.in
+          incubation program. To apply write to us at{" "}
+          <a
+            href="mailto:connect@itelfoundation.in"
+            style={{
+              color: "blue",
+              cursor: "pointer",
+              textDecoration: "none",
+            }}
+          >
+            connect@itelfoundation.in
+          </a>
         </p>
       </div>
     </div>
