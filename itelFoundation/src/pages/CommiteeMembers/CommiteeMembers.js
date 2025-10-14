@@ -30,7 +30,7 @@ import SharadSharma from "./Advisor/Sharad Sharma.png";
 import SunilBhumralkar from "../../Images/company6.png";
 import BSTeeka from "./Advisor/BS Teeka.jpg";
 import KumarVembu from "./Advisor/Kumar Vembu.jpg";
-import ReemaSaha from "../../Images/company6.png";
+import ReemaSaha from "./Advisor/ReemaSaha.jpg";
 
 import ProfKaushalKumarJha from "./Advisor/Prof.-Kaushal-Kumar-Jha.png";
 import ProfLKannan from "./Advisor/Prof. Kannan.jpg";
@@ -72,7 +72,7 @@ function CommiteeMembers() {
       description: "CEO, ITEL",
       image: ReemaSaha,
       website:
-        "Reema Saha - CEO, Immersive Technology and Entrepreneurship Labs Foundation (ITEL) | LinkedIn",
+        "https://www.linkedin.com/in/reema-saha-875a5a54/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     },
     {
       name: "Kris Gopalakrishnan",
