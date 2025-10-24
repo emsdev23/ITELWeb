@@ -29,6 +29,7 @@ const RouteTitle = () => {
         break;
       case "/Initiatives/CyberSecurity":
         document.title = "Cybersecurity solutions by ITEL";
+        break;
       case "/AdvisoryBoard":
         document.title = "Advisory Board at ITEL";
         break;
