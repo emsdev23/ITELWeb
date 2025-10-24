@@ -1,5 +1,6 @@
 import React from "react";
 import "./Initiatives.css";
+import ICAN from "./ICAN";
 
 function Initiative8() {
   return (
@@ -40,6 +41,7 @@ function Initiative8() {
             digital sovereignty.
           </p>
         </div>
+
         <br />
         <div>
           <p className="subHeading">Rising Cyberthreats:</p>
@@ -249,6 +251,11 @@ function Initiative8() {
             infrastructure
           </p>
         </div>
+
+        <br />
+        <p className="subHeading">ICAN members:</p>
+
+        <ICAN />
       </div>
     </div>
   );
