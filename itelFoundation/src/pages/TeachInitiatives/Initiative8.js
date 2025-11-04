@@ -251,7 +251,25 @@ function Initiative8() {
             infrastructure
           </p>
         </div>
-
+        <br />
+        <p className="subHeading">ICAN Academic Partners:​ </p>
+        <ul>
+          <li>
+            <b>IIT Madras​ </b>
+          </li>
+          <li>
+            <b>IIT Kanpur</b>
+          </li>
+          <li>
+            <b>IIT Bombay</b>
+          </li>
+          <li>
+            <b>IIT Hyderabad</b>
+          </li>
+          <li>
+            <b>IIT Delhi</b>
+          </li>
+        </ul>
         <br />
         <p className="subHeading">ICAN members:</p>
 

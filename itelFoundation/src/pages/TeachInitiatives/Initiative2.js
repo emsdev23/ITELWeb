@@ -153,6 +153,35 @@ function Initiative2() {
               adaptation and sustainability.
             </p>
           </div>
+          <br />
+          <p className="subHeading">Academic Partners:​ </p>
+          <ul>
+            <li>
+              <b>IIT Madras​ </b>
+            </li>
+            <li>
+              <b>Plaksha college</b>
+            </li>
+            <li>
+              <b>BITS Pilani</b>
+            </li>
+          </ul>
+
+          <p className="subHeading">Industries Partners:​ </p>
+          <ul>
+            <li>
+              <b>CEET​ </b>
+            </li>
+            <li>
+              <b>ZedBee</b>
+            </li>
+            <li>
+              <b>Flowtrik</b>
+            </li>
+            <li>
+              <b>Element synergies</b>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
